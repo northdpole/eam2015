@@ -94,12 +94,29 @@
         </div>
         </div>
 <!-- login-register -->
-        <div class="pure-u-3-24">                <!--    div 1.3    -->
-            <div class=" left-padding-2x">       <!--    div 1.3.1    -->
-            <a class="pure-button button" href="#">Είσοδος</a>
-            <div class="margin-top-2">
-            <a class="pure-button button" href="#">Εγγραφή</a>
-            </div>
+        <div class="pure-u-3-24"> 
+            <div class="pure-u-1"> <!--    div 1.3    -->
+                <div class=" left-padding-2x">       <!--    div 1.3.1    -->
+                    <a class="pure-button button" href="#">Είσοδος</a>    
+                    <form class="pure-form pure-form-aligned">                  <!--  the form for login  -->
+                        <fieldset>
+                            <div class="pure-control-group">
+                                <label for="name">Username</label>
+                                <input id="name" type="text" placeholder="Username">
+                            </div>
+
+                            <div class="pure-control-group">
+                                <label for="password">Password</label>
+                                <input id="password" type="password" placeholder="Password">
+                            </div>
+                                <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>    
+                </div>
+                <div class="margin-top-2">
+                <a class="pure-button button" href="#">Εγγραφή</a>
+                </div>
             </div>
         </div>  
     </div>
