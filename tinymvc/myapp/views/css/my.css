@@ -19,6 +19,9 @@ body>header,body>div{
 	clear:both;
 }
 
+.hiden{
+    display:none;
+}
 .fsize-stack {
   position: relative;
   display: inline-block;

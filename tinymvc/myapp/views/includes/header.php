@@ -51,7 +51,7 @@
 <!--   logo     -->
     <div class="pure-u-3-24">       <!--    div 1.1    -->
         
-        <img class="pure-img" src="images/logo.png"> 
+        <img class="pure-img " src="images/logo.jpg"> 
     </div>
 <!--   Font size picker     -->
     <div class="pure-u-18-24">  <!--    div 1.2    -->
@@ -98,7 +98,7 @@
             <div class="pure-u-1"> <!--    div 1.3    -->
                 <div class=" left-padding-2x">       <!--    div 1.3.1    -->
                     <a class="pure-button button" href="#">Είσοδος</a>    
-                    <form class="pure-form pure-form-aligned">                  <!--  the form for login  -->
+                    <form class="pure-form pure-form-aligned hiden">                  <!--  the form for login  -->
                         <fieldset>
                             <div class="pure-control-group">
                                 <label for="name">Username</label>
@@ -114,7 +114,7 @@
                         </fieldset>
                     </form>    
                 </div>
-                <div class="margin-top-2">
+                <div class="pure-u-1 margin-top-2 left-padding-2x">
                 <a class="pure-button button" href="#">Εγγραφή</a>
                 </div>
             </div>
