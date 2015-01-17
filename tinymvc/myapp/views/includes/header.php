@@ -44,41 +44,66 @@
 </head>
 
 <header class="header">
+    
+    <!--  header   -->
 <div class="pure-g">
-    <div class="pure-u-24-24"><img class="pure-img pure-u-24-24" src="images/logo.png" alt="Peyto Lake"> 
+    <div>                       <!--   div 1     -->
+<!--   logo     -->
+    <div class="pure-u-3-24">       <!--    div 1.1    -->
+        
+        <img class="pure-img" src="images/logo.png"> 
     </div>
-    <!-- Font size picker -->
-     <div class="font-size pure-u-1 block margin-2 float-right" align="right">
-            <div class="pure-u-1-24">
-                <div>a</div>
+<!--   Font size picker     -->
+    <div class="pure-u-18-24">  <!--    div 1.2    -->
+        
+        <div class="pure-u-5-24 float-right">  <!--    div 1.2.1    -->
+            <div class="pure-u-10-24">
+                <div class="pure-u-6-24 align-right v-align-box">
+                    <div class="fsize-stack v-align-box">a</div>
+                </div>
+                <div class="pure-u-6-24 margin-left-2 align-right v-align-box">
+                    <div class="fa-lg fsize-stack v-align-box">a</div>
+                </div>
+                <div class="pure-u-6-24 margin-left-2 align-right v-align-box">
+                    <div class="fa-2x fsize-stack v-align-box">a</div>
+                </div>
             </div>
-            <div class="pure-u-1-24">
-                <div class="fa-lg">a</div>
-            </div>
-            <div class="pure-u-1-24">
-                <div class="fa-2x">a</div>
+            <div class="pure-u-10-24">
+                <form class="pure-form v-align-box ">
+                    <fieldset>
+                        <select id="language">
+                            <option>Ελληνικά</option>
+                            <option>English</option>
+                            <option>Shqip</option>
+                            <option>زبان فارسی</option>
+                        </select>
+                    </fieldset>
+                </form>
             </div>
         </div>
-   <!-- Font size picker -->
-    <!-- Search -->    
-    <div class="pure-u-18-24 margin-top-2 margin-right-2">
-       
-        <div class="pure-u-1"></div>
-        <form class="pure-form pure-g">
-            <div class="pure-u-23-24">
-                <input class="pure-input-1" type="text">
+<!-- Search -->
+        <div class="pure-u-1">                                  <!--    div 1.2.2    -->
+            <form class="pure-form pure-g">
+                <div class="pure-u-22-24">
+                    <input class="pure-input-1" type="text">
+                </div>
+                    <div class="pure-u-1-24 left-padding"><button class="pure-button">
+                        <i class="fa fa-search"></i>
+                        </button></div>
+            </form>
+        </div>
+        </div>
+<!-- login-register -->
+        <div class="pure-u-3-24">                <!--    div 1.3    -->
+            <div class=" left-padding-2x">       <!--    div 1.3.1    -->
+            <a class="pure-button button" href="#">Είσοδος</a>
+            <div class="margin-top-2">
+            <a class="pure-button button" href="#">Εγγραφή</a>
             </div>
-                <div class="pure-u-1-24"><button class="pure-button">
-                    <i class="fa fa-search"></i>
-                </button></div>
-        </form>
+            </div>
+        </div>  
     </div>
-    <!-- /Search -->
-    <div class="pure-u-6-24 float-right inline margin-top-2">
-        <a class="pure-button button" href="#">Είσοδος</a>
-        <a class="pure-button button" href="#">Ενγραφή</a>
-    </div>
-    <!-- Menu -->
+<!-- Menu -->
     <div class="menu pure-u-1 LayoutCenter PanelDiffuseShadow PanelFillExtraLight">
 		<nav class="megamenu">
     <ol class="menu-list">
@@ -284,5 +309,4 @@
         </div>
    <!-- Menu-->
     </div>
-</div> 
 </header>

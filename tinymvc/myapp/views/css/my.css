@@ -13,17 +13,41 @@ body>header,body>div{
 	}
 .button{
 	
-	
 }
 
 .clear{
 	clear:both;
 }
+
+.fsize-stack {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1%;
+  line-height: 1%;
+  vertical-align: middle !important;
+}
 .float-right{
 	float:right;
 }
+
+.v-align-box{
+    vertical-align: middle !important;
+    margin-top: 0% !important;
+    padding-top: 0% !important;
+}
+.align-right{
+    vertical-align:right;
+}
+
 .l-box {
-    padding: 1em;
+    padding: 5%;
+}
+.left-padding {
+    padding-left: 1%;
+}
+.left-padding-2x {
+    padding-left: 20%;
 }
 .full-width {
     width: 100%;
@@ -34,8 +58,8 @@ body>header,body>div{
 .margin-top-2{
 	margin-top:2%;
 }
-.margin-right-2{
-	margin-right:2%;
+.margin-left-2{
+	margin-left:4%;
 }
 .block{display:block;}
 .margin-2{margin:2%;}
