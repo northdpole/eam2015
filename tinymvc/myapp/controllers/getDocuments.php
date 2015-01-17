@@ -4,7 +4,7 @@ class Getdocuments_Controller extends Base_Controller
 {
   function index()
   {
-    // Load all individual articles by category and provide the table to the view
+    // Load all individual documents by category and provide the table to the view
     $this->load->model('DocumentCategory','docCat');
     $this->load->model('Document','doc');
     $this->load->model('Category','cat');
@@ -22,8 +22,8 @@ class Getdocuments_Controller extends Base_Controller
 	}
 	//echo"<p>Art array: ";var_dump($art_array);
 	$this->view->assign('articles',$doc_array);	
-	//$this->view->display('browse');
-	$this->dummy_show($doc_array);
+	$this->view->display('category_page');
+	//$this->dummy_show($doc_array);
   }
 	function dummy_show($doc_array){
 		

@@ -1,18 +1,14 @@
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/my.css">
-</head>
-
-<?php include("includes/header.php"); ?>
+<?php include("htdocs/includes/header.php"); ?>
 
 <body>
     <div class="pure-g"> 
-    <?php include("includes/leftsidebar.php"); ?>
+    <?php include("htdocs/includes/leftsidebar.php"); ?>
         <div class="pure-u-21-24">
             <div class="pure-u-23-24">
                 <div class="l-box">
+                	<h2> This is a  category page, it loads the array provided.
+                		The array may contain either documents or articles in an organized fashion as such
+                		{[CategoryName]=>{Articles/Documents In the category}} </h2>
                 Προς πληροφόρηση όλων των ασφαλισμένων όλων των Τομέων του Ε.Τ.Α.Α. ως Πρόεδρος του, έχω υποχρέωση να αναφέρω τα εξής:
 σήμερα 15.05.2014 ήταν ημέρα συνεδρίασης του Διοικητικού Συμβουλίου του ΕΤΑΑ. Στην Ημερήσια Διάταξη, που περιελάμβανε μόνο 17 θέματα, δεν περιλαμβάνονταν καθόλου θέματα των Τομέων Μηχανικών και ΕΔΕ , αλλά μόνο θέματα του Τομέα Νομικών και των Τομέων Υγειονομικών.
 Επισημαίνεται δε ότι ο Πρόεδρος του Δ.Σ.,  προτίθετο να ανακοινώσει – και ήταν ευρέως γνωστό- θέμα που αφορούσε το υπαλληλικό προσωπικό του Ε.Τ.Α.Α., ανταποκρινόμενος σε αίτημα του Συλλόγου των εργαζομένων, συμμεριζόμενος την αγωνία τους για την πορεία του Ταμείου.

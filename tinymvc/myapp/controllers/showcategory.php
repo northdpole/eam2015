@@ -21,7 +21,7 @@ class ShowCategory_Controller extends Base_Controller
 	$art_array = array();
 	$doc_array = array();
 	
-	var_dump($cat);
+	//var_dump($cat);
 	//var_dump($artIds);
 	foreach ($artIds as $arts) {
 		$art_array[$cat['name']] = $this->art->get_id($arts['article_id']);
@@ -35,11 +35,11 @@ class ShowCategory_Controller extends Base_Controller
 	//$this->view->display('browse');
 	//$this->dummy_show($art_array);
   
-	var_dump($art_array);
-	var_dump($doc_array);
+	//var_dump($art_array);
+	//var_dump($doc_array);
   	$this->view->assign('article',$art_array);
 	$this->view->assign('article',$doc_array);
-	//$this->view->display('show_article');
+	$this->view->display('category_page');
   }
 }
 

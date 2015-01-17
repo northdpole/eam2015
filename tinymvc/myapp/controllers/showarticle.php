@@ -1,6 +1,6 @@
 <?php 
 
-class ArticleV_Controller extends Base_Controller
+class ShowArticle_Controller extends Base_Controller
 {
   function index()
   {	

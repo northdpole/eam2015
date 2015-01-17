@@ -20,7 +20,7 @@ class Browse_Controller extends Base_Controller
 	}
 	//echo"<p>Art array: ";var_dump($art_array);
 	$this->view->assign('articles',$art_array);	
-	//$this->view->display('browse');
+	$this->view->display('category_page');
 	$this->dummy_show($art_array);
   }
 	function dummy_show($art_array){
