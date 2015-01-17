@@ -1,0 +1,190 @@
+@import url(navi.css);
+@import url(forms.css);
+@import url(tables.css);
+
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#f9313C;
+	}
+
+img{border:0; display:block; padding:0; margin:0;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart {list-style-type:none; margin:0; padding:0;}
+.clear{clear: both;}
+br.clear{clear:both; margin-top:-15px;}
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #DFDFDF; padding:5px; color:#666666; background-color:#FFFFFF;}
+.imgl{float:left; margin:0 8px 8px 0; clear:left;}
+.imgr{float:right; margin:0 0 8px 8px; clear:right;}
+
+
+#header .TSMEDE{
+	float:left;
+	width:210px;
+	margin-top:30px;
+	font-size:27px;
+	}
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	display:block;
+	width:100%;
+	margin:0;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 20px 0;
+	padding:0 0 8px 0;
+	font-size:20px;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-bottom:1px dotted #DDDDDD;
+	}
+
+.col1{color:#666666; background-color:#E3F1F9;}
+.col2{color:#FFFFFF; background-color:#ED4E34;}
+.col3, .col4, .col5{color:#666666; background-color:#FFFFFF;}
+.col6{color:#999999; background-color:#F3F3F3;}
+.col6 a{color:#3C96C8; background-color:#F3F3F3;}
+.col7, .col7 a{color:#FFFFFF; background-color:#29313C;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #topbar, #intro, #services, #breadcrumb, #container, #footer, #copyright{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+
+#header{
+	padding:0;
+	}
+
+#header #logo{
+	float:left;
+	width:210px;
+	margin-top:30px;
+	}
+	
+
+#header #login{
+	float:right;
+	margin-top:10px;
+	padding:30px 10px 5px 10px;
+	}
+
+#header #login p{
+	margin:3px 0 3px 0;
+	font-size:11px;
+	}
+	
+#header #login a:hover{color:#C83330;}
+
+
+/* ----------------------------------------------Topbar-------------------------------------*/
+
+#topbar{
+	z-index:1000;
+	}
+
+#topbar #search{
+	display:block;
+	float:right;
+	width:190px;
+	height:36px;
+	margin:0;
+	padding:10px 0 0 17px;
+	color:#FFFFFF;
+	background-color:#ED4E34;
+	border-left:1px dotted #FFFFFF;
+	overflow:hidden;
+	}
+
+/* ----------------------------------------------BreadCrumb-------------------------------------*/
+
+#breadcrumb{
+	padding:25px 0;
+	border-bottom:1px solid #CCCCCC;
+	}
+
+#breadcrumb a{
+	color:#3C96C8;
+	background-color:#FFFFFF;
+	}
+
+#breadcrumb ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#breadcrumb ul li{display:inline;}
+
+#breadcrumb ul li a:hover{color:#C83330;}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{
+	padding:30px 0;
+	line-height:1.4em;
+	}
+
+#container a{
+	color:#3C96C8;
+	background-color:#FFFFFF;
+	}
+	
+#container a:hover{color:#C83330;}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
+	padding-bottom:8px;
+	border-bottom:1px dotted #CCCCCC;
+	}
+
+#content{
+	display:block;
+	float:right;
+	width:600px;
+	}
+
+/* ----------------------------------------------Footer-------------------------------------*/
+
+#footer{
+	padding:20px 0;
+	}
+
+#footer ul, #footer a{
+	margin:0 10px 0 10px;
+	padding:0 0 10px;
+	float: left;
+	list-style:none;
+	}
+
+#footer li{display:inline;}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{
+	padding:10px 0;
+	}
+
+#copyright p{
+	margin:0;
+	padding:0;
+	}
