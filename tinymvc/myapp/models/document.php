@@ -22,7 +22,7 @@ class Document extends TinyMVC_Model
   		$this->db->insert('Document',array($Document.array()));
   }
   function search($title){
-  	$this->db->query('select * from  Document where title LIKE % ? %',array($title));
+  	$this->db->query('select * from  Document where title LIKE ?  ',array('%'.$title.'%'));
    	$results = array();
     while($row = $this->db->next())
       $results[$row['id']] = $row;

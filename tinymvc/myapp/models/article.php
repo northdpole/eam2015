@@ -22,7 +22,7 @@ class Article extends TinyMVC_Model
   		$this->db->insert('Article',array($article.array()));
   }
   function search($title){
-  	$this->db->query('select * from  Article where title LIKE % ? %',array($title));
+  	$this->db->query('select * from  Article where title LIKE ?  ',array('%'.$title.'%'));
    	$results = array();
     while($row = $this->db->next())
       $results[$row['id']] = $row;
