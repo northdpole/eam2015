@@ -31,7 +31,7 @@ class Homepage_Controller extends Base_Controller
 	}
 	$this->view->assign('articles',$articles);
     $this->view->assign('cat_names',array_values($categories));
-	$this->view->display('show_homepage');
+	$this->view->display('logged_in');
     ////echo "<p>";var_dump($documents);
 	//echo "<p>";var_dump($articles);
     //for each article in each category the user is subscribed

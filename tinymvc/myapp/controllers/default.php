@@ -13,7 +13,7 @@ class Default_Controller extends Base_Controller
 {
   function index()
   {
-    $this->view->display('entry_view');
+    $this->view->display('show_homepage');
   }
 }
 
