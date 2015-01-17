@@ -10,7 +10,7 @@ class Subscription extends TinyMVC_Model
     return $results;
   }
   function add($userid,$categid){
-  		$this->db->insert('userSubscriptions',array($userid,$categid));
+  		$this->db->insert('userSubscriptions',array('userid'=>$userid,'categ_id'=>$categid));
   }
 }
 

@@ -10,6 +10,14 @@ class Category extends TinyMVC_Model
       $results[] = $row;
     return $results;
   }
+  function get_id($id)
+  {
+     $this->db->query('select * from  Category where id = ?',array($id));
+    $results = array();
+    while($row = $this->db->next())
+      $results[] = $row;
+    return $results;
+  }
   function get_all()
   {
      $this->db->query('select * from  Category');
