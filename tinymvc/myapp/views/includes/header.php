@@ -10,6 +10,28 @@
 <link rel="stylesheet" href="css/my.css">
 
 <script src="js/main.js"></script>
+    
+    <script>
+       $(document).ready(function(){
+           var loginShow = false;
+           $("#loginClose").click(function(){
+                $("#loginForm").hide();
+                loginShow = false;
+            }
+)});</script>
+    <script>
+       $(document).ready(function(){
+//           alert("Vale ena X icon panw de3ia sth forma kai dwstou id=\"loginClose\" kai meta phgaine ston kwdika grammh 24 kai diegrapse to alert");
+           var loginShow = false;
+           $("#loginButton").click(function(){
+            if(!loginShow){
+                $("#loginForm").show();
+                loginShow = true;
+            }else{
+                $("#loginForm").hide();
+                loginShow = false;
+            }
+})});</script>
 <script>
 	<script>
         $("nav:first").accessibleMegaMenu({
@@ -97,16 +119,17 @@
         <div class="pure-u-3-24"> 
             <div class="pure-u-1"> <!--    div 1.3    -->
                 <div class=" left-padding-2x">       <!--    div 1.3.1    -->
-                    <a class="pure-button button" href="#">Είσοδος</a>    
-                    <form class="pure-form pure-form-aligned hiden">                  <!--  the form for login  -->
+                    <a class="pure-button button" id="loginButton" onclick="loginToggle" href="#">Είσοδος</a>    
+                    <form class="pure-form pure-form-aligned hiden" id="loginForm">                  <!--  the form for login  -->
+                        <i class="fa fa-times upper-corner"></i>
                         <fieldset>
                             <div class="pure-control-group">
-                                <label for="name">Username</label>
+                                <label for="name">Όνομα Χρήστη</label>
                                 <input id="name" type="text" placeholder="Username">
                             </div>
 
                             <div class="pure-control-group">
-                                <label for="password">Password</label>
+                                <label for="password">Κωδικός Πρόσβασης</label>
                                 <input id="password" type="password" placeholder="Password">
                             </div>
                                 <button type="submit" class="pure-button pure-button-primary">Submit</button>

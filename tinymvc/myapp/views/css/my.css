@@ -5,14 +5,50 @@ html{background-color:#e6e6e6;}
 body{background-color:#fff;
 	padding:2%;width:80%;margin: 0 auto;display:table;
 }
+aside{
+background: #909DA6;
+padding: 0.3em 1em;
+border-radius: 3px;
+color: #fff;
+}
+
+content-box{
+background: #F2F2F2;
+border: #F2F2F2;
+padding: 0.3em 1em;
+border-radius: 3px;
+color: #000000;
+}
+
+
 a{color:blue;}
 a:visited{color:#565656;}
 body>header,body>div{
 	
 	
 	}
+
+.small-font{
+font-size: 0.8em;
+}
 .button{
 	
+}
+
+#loginForm{
+float: left;
+position: relative;
+z-index: 100000;
+background: lightgrey;
+left: -139.6%;
+padding: 26%;
+width: 196%;
+}
+
+.upper-corner{
+    position: absolute;
+    bottom: 90%;
+    left: 90%;
 }
 
 .clear{
@@ -46,6 +82,23 @@ body>header,body>div{
 .l-box {
     padding: 5%;
 }
+
+.padding-content-box-bottom {
+    padding-bottom: 0.5%;
+}
+.padding-content-box-top {
+    padding-bottom: 0.5%;
+}
+.padding-content-box-left {
+    padding-bottom: 0.5%;
+}
+.padding-content-box-right {
+    padding-bottom: 0.5%;
+}
+.padding-content-box {
+    padding: 1%;
+}
+
 .left-padding {
     padding-left: 1%;
 }
@@ -59,9 +112,12 @@ body>header,body>div{
 	display:inline;
 }
 .margin-top-2{
-	margin-top:2%;
+	margin-top:5%;
 }
 .margin-left-2{
+	margin-left:4%;
+}
+.margin-right-4{
 	margin-left:4%;
 }
 .block{display:block;}
