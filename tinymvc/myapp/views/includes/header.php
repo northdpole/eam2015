@@ -1,15 +1,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/megamenu.css">    
-<script src="js/jquery-accessibleMegaMenu.js"></script>
+<link rel="stylesheet" type="text/css" href="htdocs/css/main.css">
+<link rel="stylesheet" type="text/css" href="htdocs/css/megamenu.css">    
+<script src="htdocs/js/jquery-accessibleMegaMenu.js"></script>
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/my.css">
+<link rel="stylesheet" href="htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="htdocs/css/my.css">
 
-<script src="js/main.js"></script>
+<script src="htdocs/js/main.js"></script>
     
     <script>
        $(document).ready(function(){
@@ -73,7 +73,7 @@
 <!--   logo     -->
     <div class="pure-u-3-24">       <!--    div 1.1    -->
         
-        <img class="pure-img " src="images/logo.jpg"> 
+        <img class="pure-img" src="htdocs/images/logo.png"> 
     </div>
 <!--   Font size picker     -->
     <div class="pure-u-18-24">  <!--    div 1.2    -->
@@ -116,30 +116,12 @@
         </div>
         </div>
 <!-- login-register -->
-        <div class="pure-u-3-24"> 
-            <div class="pure-u-1"> <!--    div 1.3    -->
-                <div class=" left-padding-2x">       <!--    div 1.3.1    -->
-                    <a class="pure-button button" id="loginButton" onclick="loginToggle" href="#">Είσοδος</a>    
-                    <form class="pure-form pure-form-aligned hiden" id="loginForm">                  <!--  the form for login  -->
-                        <i class="fa fa-times upper-corner"></i>
-                        <fieldset>
-                            <div class="pure-control-group">
-                                <label for="name">Όνομα Χρήστη</label>
-                                <input id="name" type="text" placeholder="Username">
-                            </div>
-
-                            <div class="pure-control-group">
-                                <label for="password">Κωδικός Πρόσβασης</label>
-                                <input id="password" type="password" placeholder="Password">
-                            </div>
-                                <button type="submit" class="pure-button pure-button-primary">Submit</button>
-                            </div>
-                        </fieldset>
-                    </form>    
-                </div>
-                <div class="pure-u-1 margin-top-2 left-padding-2x">
-                <a class="pure-button button" href="#">Εγγραφή</a>
-                </div>
+        <div class="pure-u-3-24">                <!--    div 1.3    -->
+            <div class=" left-padding-2x">       <!--    div 1.3.1    -->
+            <a class="pure-button button" href="#">Είσοδος</a>
+            <div class="margin-top-2">
+            <a class="pure-button button" href="#">Εγγραφή</a>
+            </div>
             </div>
         </div>  
     </div>
