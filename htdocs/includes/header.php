@@ -1,15 +1,15 @@
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="htdocs/css/main.css">
-<link rel="stylesheet" type="text/css" href="htdocs/css/megamenu.css">    
-<script src="htdocs/js/jquery-accessibleMegaMenu.js"></script>
+<link rel="stylesheet" type="text/css" href="../htdocs/css/main.css">
+<link rel="stylesheet" type="text/css" href="../htdocs/css/megamenu.css">    
+<script src="../htdocs/js/jquery-accessibleMegaMenu.js"></script>
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-<link rel="stylesheet" href="htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="htdocs/css/my.css">
-
-<script src="htdocs/js/main.js"></script>
+<link rel="stylesheet" href="../htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../htdocs/css/my.css">
+<script src="../htdocs/js/main.js"></script>
     
     <script>
        $(document).ready(function(){
@@ -33,7 +33,6 @@
             }
 })});</script>
 <script>
-	<script>
         $("nav:first").accessibleMegaMenu({
             /* prefix for generated unique id attributes, which are required 
                to indicate aria-owns, aria-controls and aria-labelledby */
@@ -73,7 +72,7 @@
 <!--   logo     -->
     <div class="pure-u-3-24">       <!--    div 1.1    -->
         
-        <img class="pure-img" src="htdocs/images/logo.png"> 
+        <img class="pure-img" src="../htdocs/images/logo.png"> 
     </div>
 <!--   Font size picker     -->
     <div class="pure-u-18-24">  <!--    div 1.2    -->

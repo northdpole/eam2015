@@ -9,7 +9,7 @@
  * @author		Monte Ohrt
  */
 
-class Default_Controller extends TinyMVC_Controller
+class Default_Controller extends Base_Controller
 {
   function index()
   {

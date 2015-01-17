@@ -1,6 +1,6 @@
 <?php 
 
-class Profile_Controller extends TinyMVC_Controller
+class Homepage_Controller extends Base_Controller
 {
   function index()
   {
@@ -31,7 +31,7 @@ class Profile_Controller extends TinyMVC_Controller
 	}
 	$this->view->assign('articles',$articles);
     $this->view->assign('cat_names',array_values($categories));
-	//$this->view->display('user_home');
+	$this->view->display('show_homepage');
     ////echo "<p>";var_dump($documents);
 	//echo "<p>";var_dump($articles);
     //for each article in each category the user is subscribed

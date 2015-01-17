@@ -1,6 +1,6 @@
 <?php 
 
-class DocumentV_Controller extends Base_Controller
+class ShowDocument_Controller extends Base_Controller
 {
   function index()
   {	
@@ -11,7 +11,7 @@ class DocumentV_Controller extends Base_Controller
 	$this->load->model('Document','doc');
 	$document = $this->doc->get($id);
   	$this->view->assign('document',$document);
-	$this->view->display('show_document');
+	$this->view->display('show_article');
   }
 }
 
