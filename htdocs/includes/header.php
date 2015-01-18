@@ -148,7 +148,7 @@
 		<nav class="megamenu">
     <ol class="menu-list">
         <li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#perceivable">Αρχική Σελίδα</a></h2>
+            <h2><a href="<?php echo HOME ?>">Αρχική Σελίδα</a></h2>
             <div class="cols-4">
                 <ol>
                     <li class="accessible-megamenu-panel-group">
@@ -158,7 +158,7 @@
             </div>
         </li>
         <li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#operable">Το Ταμείο Μας</a></h2>
+            <h2><a href="<?php echo HOME ?>about">Το Ταμείο Μας</a></h2>
             <div class="cols-4b">
                 <p>User interface components and navigation must be operable.</p>
                 <ol>
@@ -199,39 +199,39 @@
             </div>
         </li>
         <li class="menu-small-width">
-            <h2><a href="http://www.w3.org/TR/WCAG/#understandable">Νέα</a></h2>
+            <h2><a href="<?php echo HOME ?>news">Νέα</a></h2>
             <div class="cols-3">
                 <p>Information and the operation of user interface must be understandable.</p>
             </div>
         </li>
         <li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#robust">Ασφαλισμένοι</a></h2>
+            <h2><a href="<?php echo HOME ?>browse">Ασφαλισμένοι</a></h2>
             <div class="cols-1">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li>
         <li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#robust">Συνταξιούχοι</a></h2>
+            <h2><a href="<?php echo HOME ?>browse">Συνταξιούχοι</a></h2>
             <div class="cols-1">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li><li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#robust">Εταιρίες</a></h2>
+            <h2><a href="<?php echo HOME ?>browse">Εταιρίες</a></h2>
             <div class="cols-1">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li><li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#robust">Πιστούχοι</a></h2>
+            <h2><a href="<?php echo HOME ?>browse">Πιστούχοι</a></h2>
             <div class="cols-1">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li><li class="menu-large-width">
-            <h2><a href="http://www.w3.org/TR/WCAG/#robust">Συχνές Ερωτήσεις</a></h2>
+            <h2><a href="<?php echo HOME ?>showarticle?id=5">Συχνές Ερωτήσεις</a></h2>
             <div class="cols-1">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li><li>
-            <h2><a href="http://www.w3.org/TR/WCAG/#robust">Επικοινωνία</a></h2>
+            <h2><a href="<?php echo HOME ?>communication">Επικοινωνία</a></h2>
             <div class="cols-1">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
