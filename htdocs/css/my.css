@@ -126,7 +126,14 @@ width: 196%;
 .font-size{display:none;} 
 
 .menu-list{}
-.menu-list>li{display:table-cell;width:20%;}
+.menu-list>li{display:table-cell; width:11.05%;}
+
+.menu-small-width{
+width:5% !important;
+}
+.menu-large-width{
+width:17.6% !important;
+}
 .menu{
 	margin: 1% 0;
 }
