@@ -15,8 +15,9 @@ error_reporting(E_ALL);
 define('TMVC_BASEDIR','./tinymvc/');
 
 $url = str_replace("/index.php","",$_SERVER['SCRIPT_NAME']);
-
 define('BASEDIR',$url);
+define('HOME',"http://".$_SERVER[HTTP_HOST].BASEDIR);
+ 
  
 //* if the /myapp/ dir is not inside the /tinymvc/ dir, uncomment and set here */
 //define('TMVC_MYAPPDIR','/path/to/myapp/');
