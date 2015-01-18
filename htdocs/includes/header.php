@@ -149,17 +149,13 @@
     <ol class="menu-list">
         <li>
             <h2><a href="<?php echo HOME ?>">Αρχική Σελίδα</a></h2>
-            <div class="cols-4">
-                <ol>
-                    <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG/#text-equiv">1.1 Text Alternatives</a></h3>
-                        <p>Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.</p>
-                       
+            <div class="cols-4 nodisplay-menu">
+               
             </div>
         </li>
         <li>
             <h2><a href="<?php echo HOME ?>about">Το Ταμείο Μας</a></h2>
-            <div class="cols-4b">
+            <div class="cols-4b nodisplay-menu">
                 <p>User interface components and navigation must be operable.</p>
                 <ol>
                     <li class="accessible-megamenu-panel-group">
@@ -200,7 +196,7 @@
         </li>
         <li class="menu-small-width">
             <h2><a href="<?php echo HOME ?>news">Νέα</a></h2>
-            <div class="cols-3">
+            <div class="cols-3 nodisplay-menu">
                 <p>Information and the operation of user interface must be understandable.</p>
             </div>
         </li>
@@ -212,8 +208,29 @@
         </li>
         <li>
             <h2><a href="<?php echo HOME ?>browse">Συνταξιούχοι</a></h2>
-            <div class="cols-1">
-                <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
+            <div class="cols-4b nodisplay-menu">
+                <p>Ένας Συνταξιούχος του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
+                <ol>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation"> Στοιχεία Συντάξης (login) </a></h3>
+                        <p>Ένας συνταξιούχος μπορεί να ενημερωθεί γύρο από τα θέματα της σύνταξης του.</p>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms">2.4 Navigable</a></h3>
+                        <p>Provide ways to help users navigate, find content, and determine where they are.</p>
+                        <ol>
+                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip">2.4.1 Bypass Blocks</a></li>
+                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title">2.4.2 Page Titled</a></li>
+                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order">2.4.3 Focus Order</a></li>
+                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs">2.4.4 Link Purpose (In Context)</a>
+                                <hr/>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
             </div>
         </li><li>
             <h2><a href="<?php echo HOME ?>browse">Εταιρίες</a></h2>
@@ -222,17 +239,17 @@
             </div>
         </li><li>
             <h2><a href="<?php echo HOME ?>browse">Πιστούχοι</a></h2>
-            <div class="cols-1">
+            <div class="cols-1 nodisplay-menu">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li><li class="menu-large-width">
             <h2><a href="<?php echo HOME ?>showarticle?id=5">Συχνές Ερωτήσεις</a></h2>
-            <div class="cols-1">
+            <div class="cols-1 nodisplay-menu">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li><li>
             <h2><a href="<?php echo HOME ?>communication">Επικοινωνία</a></h2>
-            <div class="cols-1">
+            <div class="cols-1 nodisplay-menu">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
         </li>

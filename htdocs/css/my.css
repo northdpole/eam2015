@@ -58,6 +58,9 @@ width: 196%;
 .hiden{
     display:none;
 }
+.nodisplay-menu{
+    display:none!important;
+}
 .fsize-stack {
   position: relative;
   display: inline-block;
@@ -105,6 +108,7 @@ width: 196%;
 .left-padding-2x {
     padding-left: 20%;
 }
+
 .full-width {
     width: 100%;
 }
@@ -123,7 +127,7 @@ width: 196%;
 .block{display:block;}
 .margin-2{margin:2%;}
 
-.font-size{display:none;} 
+/*.font-size{display:none;} */
 
 .menu-list{}
 .menu-list>li{display:table-cell; width:11.05%;}
