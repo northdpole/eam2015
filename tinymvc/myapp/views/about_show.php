@@ -42,4 +42,4 @@
         </div>
     
     </div>
-</body>
+<?php include("htdocs/includes/footer.php"); ?>

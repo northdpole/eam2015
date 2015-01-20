@@ -1,8 +1,11 @@
-/*!
+/*
+ * -------------------------
  *  My css
- * -------------------------- */
+ * -------------------------- 
+ * */
+
 html{background-color:#e6e6e6;}
-body{background-color:#fff;
+#container{background-color:#fff;
 	padding:2%;width:80%;margin: 0 auto;display:table;
 }
 aside{
@@ -11,10 +14,16 @@ padding: 0.3em 1em;
 border-radius: 3px;
 color: #fff;
 }
+.search{padding-left:2%;}
+.head_utils {
+	vertical-align:bottom;	
+	
+}
+.above_search {text-align:right;}
+.register{text-align:right;}
+#categ_box{
 
-mycontent-box{
-    width: 100%;
-background: #F2F2F2;
+background: lightgray;
 }
 
 
@@ -32,15 +41,18 @@ font-size: 0.8em;
 .button{
 	
 }
+.relative_pos{position:relative;}
 
-#loginForm{
-float: left;
-position: relative;
-z-index: 100000;
+#loginForm {
+text-align: center;
+/* float: left; */
+position: absolute;
+z-index: 100009;
 background: lightgrey;
-left: -139.6%;
-padding: 26%;
-width: 196%;
+left: -119.6%;
+width: 220%;
+padding: 2% 2%;
+top: 100%;
 }
 
 .upper-corner{
@@ -69,6 +81,7 @@ width: 196%;
 }
 .float-right{
 	float:right;
+	padding-right: 1%;
 }
 
 .v-align-box{

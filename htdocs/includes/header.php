@@ -63,33 +63,23 @@
 	
 </script>
 </head>
-
-<header class="header">
+<body>
+	<div id="container">
+		<header class="header">
     
     <!--  header   -->
 <div class="pure-g">
-    <div>                       <!--   div 1     -->
+   
 <!--   logo     -->
-    <div class="pure-u-3-24">       <!--    div 1.1    -->
+    <div class="pure-u-3-24 head_utils">       <!--    div 1.1    -->
         
         <img class="pure-img" src="<?php echo BASEDIR ?>/htdocs/images/logo.png"> 
     </div>
-<!--   Font size picker     -->
-    <div class="pure-u-18-24">  <!--    div 1.2    -->
+<!--   Font size picker , search    -->
+    <div class="pure-u-17-24 head_utils">  <!--    div 1.2    -->
         
-        <div class="pure-u-5-24 float-right">  <!--    div 1.2.1    -->
-            <div class="pure-u-10-24">
-                <div class="pure-u-6-24 align-right v-align-box">
-                    <div class="fsize-stack v-align-box">a</div>
-                </div>
-                <div class="pure-u-6-24 margin-left-2 align-right v-align-box">
-                    <div class="fa-lg fsize-stack v-align-box">a</div>
-                </div>
-                <div class="pure-u-6-24 margin-left-2 align-right v-align-box">
-                    <div class="fa-2x fsize-stack v-align-box">a</div>
-                </div>
-            </div>
-            <div class="pure-u-10-24">
+        <div class="pure-u-24-24  above_search">  <!--    div 1.2.1    -->
+           <div class="pure-u-4-24 float-right">
                 <form class="pure-form v-align-box ">
                     <fieldset>
                         <select id="language">
@@ -101,9 +91,21 @@
                     </fieldset>
                 </form>
             </div>
+            <div class="pure-u-3-24 float-right">
+                <div class="pure-u-6-24 align-right v-align-box">
+                    <div class="fsize-stack v-align-box">a</div>
+                </div>
+                <div class="pure-u-6-24 margin-left-2 align-right v-align-box">
+                    <div class="fa-lg fsize-stack v-align-box">a</div>
+                </div>
+                <div class="pure-u-6-24 margin-left-2 align-right v-align-box">
+                    <div class="fa-2x fsize-stack v-align-box">a</div>
+                </div>
+            </div>
+            
         </div>
 <!-- Search -->
-        <div class="pure-u-1">                                  <!--    div 1.2.2    -->
+        <div class="pure-u-1 search">                                  <!--    div 1.2.2    -->
             <form class="pure-form pure-g">
                 <div class="pure-u-22-24">
                     <input class="pure-input-1" type="text">
@@ -115,9 +117,9 @@
         </div>
         </div>
 <!-- login-register -->
-        <div class="pure-u-3-24">                <!--    div 1.3    -->
-            <div class=" left-padding-2x">       <!--    div 1.3.1    -->
-                 <div class=" left-padding-2x">       <!--    div 1.3.1    -->
+        <div class="pure-u-3-24 head_utils register">                <!--    div 1.3    -->
+            <div class=" left-padding-2x ">       <!--    div 1.3.1    -->
+                 <div class=" left-padding-2x relative_pos">       <!--    div 1.3.1    -->
                     <a class="pure-button button" id="loginButton" onclick="loginToggle" href="#">Είσοδος</a>  
                    <form class="pure-form pure-form-aligned hiden" id="loginForm">                  <!--  the form for login  -->
                         <i id="loginClose" class="fa fa-times upper-corner"></i>
@@ -140,7 +142,7 @@
             </div>
             </div>
         </div>  
-    </div>
+   
     
 <!-- Menu -->
     

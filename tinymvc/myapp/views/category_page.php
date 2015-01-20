@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="pure-u-6-24">
-                <mycontent-box>   
+                <aside id="categ_box">   
                     
                     
 <!--                    Please add color here!           -->
@@ -49,7 +49,7 @@
                         <a class="pure-button button" href="#">Εγγραφή</a>
                         </div>
                     </div>
-                </mycontent-box>
+                </aside>
             </div>
             <div class="pure-u-6-24">
                 <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
@@ -86,4 +86,4 @@
         </div>
         
     </div>
-</body>
+<?php include("htdocs/includes/footer.php"); ?>

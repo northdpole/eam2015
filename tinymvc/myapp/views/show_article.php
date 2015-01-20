@@ -22,4 +22,4 @@ Vivamus ac tempus nunc, at tincidunt magna. Suspendisse aliquam sit amet tortor 
         </div>
     
     </div>
-</body>
+<?php include("htdocs/includes/footer.php"); ?>
