@@ -17,14 +17,14 @@
                 </div>
             </div>
             <div class="pure-u-6-24">
-                <aside id="categ_box">   
-                    
-                    
-<!--                    Please add color here!           -->
-                    
-                    
-                    
-                    Για να δείτε τα στοιχεία της καρτέλας σας παρακαλούμε εγγραφείτε. </br>Η καρτέλα σας περιέχει αναλυτικά την ημερομηνία παραλαβής της συντάξεως σας και τις κρατήσεις πάνω σε αυτή. Επίσης την απεικόνιση των στοιχείων συντάξεων για τους τελευταίους μήνες.</br></br>
+                <aside id="categ_box">  
+                    <h4>Είσοδος/Ενγγραφή</h4>
+                    Με την είσοδο σας σο σύστημα μπορείτε να δείτε:
+                <ul>
+                    <li>Hμερομηνία παραλαβής της συντάξεως </li>
+                    <li>Kρατήσεις</li>
+                    <li>Στοιχεία συντάξεων των τελευταίων μηνών</li>
+                </ul>
                     <div align="center">       <!--    div 1.3.1    -->
                         
                          <div>      <!--    div 1.3.1    -->
@@ -52,19 +52,30 @@
                 </aside>
             </div>
             <div class="pure-u-6-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
+                <aside id="categ_box">
+                    <h4>Μηχανογραφιμένες Βεβαιώσεις</h4>
+                    <ul>
+                        <li>Βεβαίωση Σύνταξης</li>
+                        <li>Βεβαίωση Σύνταξης (με αιτιολόγηση συνταξιοδότησης)</li>
+                        <li>Βεβαίωση Αποδοχών Συνταξιούχων</li>
+                        <li>Βεβαίωση Εφορίας Συνταξιούχου</li>
+                        <li>Βεβαίωση Αναλυτικών Κρατήσεων Συνταξιούχου</li>
+                    </ul>
+                </aside>
                 <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
                 </div>
             </div>
             <div class="pure-u-6-24">
                 <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
                 </div>
-                <div class="l-box">
-                    <a href="<?php echo HOME ?>">Ρύθμιση οφειλών προς τους Φορείς Κοινωνικής Ασφάλισης</a>
-                    <a href="<?php echo HOME ?>">ΕΙδοποιητήριο Β΄ Εξαμήνου 2014</a>
-                    <a href="<?php echo HOME ?>">Εκτύπωση Διαδικτυακού Ειδοποιητηρίου </a>
-                </div>
+                <aside id="categ_box">
+                    <h4>Να</h4>
+                    <ul>
+                        <li><a href="<?php echo HOME ?>" target="_blank">Ρύθμιση οφειλών προς τους Φορείς Κοινωνικής Ασφάλισης</a></li>
+                        <li><a href="<?php echo HOME ?>" target="_blank">ΕΙδοποιητήριο Β΄ Εξαμήνου 2014</a></li>
+                        <li><a href="<?php echo HOME ?>" target="_blank">Εκτύπωση Διαδικτυακού Ειδοποιητηρίου </a></li>
+                    </ul>
+                </aside>
             </div>
             <div class="pure-u-2-24">
             <table class="pure-table">
@@ -75,9 +86,9 @@
     </thead>
 
     <tbody>
-        <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf">ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ ως Χρόνου Ασφάλισης το ΧΡΟΝΟ ΘΗΤΕΙΑ</a></td></tr>
-        <tr class="pure-table-odd"><td><a href="<?php echo HOME ?>">ΕΙδοποιητήριο Β΄ Εξαμήνου 2014</a></td></tr>   
-        <tr><td><a href="<?php echo HOME ?>">Εκτύπωση Διαδικτυακού Ειδοποιητηρίου </a></td></tr>
+        <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΣΤΡΑΤΙΩΤΙΚΗΣ ΘΗΤΕΙΑΣ στην ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ</a></td></tr>
+        <tr class="pure-table-odd"><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_children_time.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΠΑΙΔΙΩΝ στην ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ</a></td></tr>   
+        <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_degree_time.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΦΟΙΤΗΣΗΣ στην ΚΥΡΙΑ ΣΥΝΤΑΞΗ </a></td></tr>
     </tbody>
 </table>
             </div>
