@@ -10,7 +10,11 @@ class ShowArticle_Controller extends Base_Controller
     $id = $_GET['id'];
 	$this->load->model('Article','art');
 	$article = $this->art->get($id);
-  	$this->view->assign('article',$article);
+  	if(sizeof($article) === 0)
+		$article = "Your article couldn't be found";
+  	$this->view->assign('article',$article[$id]['content']);
+	$this->view->assign('date',$article[$id]['date']);
+	$this->view->assign('title',$article[$id]['title']);
 	$this->view->display('show_article');
   }
 }
