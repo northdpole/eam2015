@@ -60,7 +60,10 @@
             <div class="pure-u-6-24">
                 <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
                 </div>
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box">
+                    <a href="<?php echo HOME ?>">Ρύθμιση οφειλών προς τους Φορείς Κοινωνικής Ασφάλισης</a>
+                    <a href="<?php echo HOME ?>">ΕΙδοποιητήριο Β΄ Εξαμήνου 2014</a>
+                    <a href="<?php echo HOME ?>">Εκτύπωση Διαδικτυακού Ειδοποιητηρίου </a>
                 </div>
             </div>
             <div class="pure-u-2-24">
@@ -72,14 +75,9 @@
     </thead>
 
     <tbody>
-        <tr class="pure-table-odd"><td>2009 ,κφξγνξ κσφηβωσφ ρερφρσξγβνκφδξνβωψ μωνφξκβνφκ .ψξβνφγκ.ξ</td></tr>
-        <tr><td>2012</td></tr>
-        <tr class="pure-table-odd"><td>2010</td></tr>
-        <tr><td>2008</td></tr>
-        <tr class="pure-table-odd"><td>2011</td></tr>
-        <tr><td>2009</td></tr>
-        <tr class="pure-table-odd"><td>2010</td></tr>
-        <tr><td>2010</td></tr>
+        <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf">ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ ως Χρόνου Ασφάλισης το ΧΡΟΝΟ ΘΗΤΕΙΑ</a></td></tr>
+        <tr class="pure-table-odd"><td><a href="<?php echo HOME ?>">ΕΙδοποιητήριο Β΄ Εξαμήνου 2014</a></td></tr>   
+        <tr><td><a href="<?php echo HOME ?>">Εκτύπωση Διαδικτυακού Ειδοποιητηρίου </a></td></tr>
     </tbody>
 </table>
             </div>
