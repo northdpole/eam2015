@@ -6,23 +6,50 @@
         <div class="pure-u-21-24">
             <div class="pure-u-23-24">
                 <div class="l-box">
+<!--
                 	<h2> This is a  category page, it loads the array provided.
                 		The array may contain either documents or articles in an organized fashion as such
                 		{[CategoryName]=>{Articles/Documents In the category}} </h2>                  
+-->
   <aside>
                 Προς πληροφόρηση όλων των ασφαλισμένων όλων των Τομέων του Ε.Τ.Α.Α. ως Πρόεδρος του, έχω υποχρέωση να αναφέρω τα εξής:
-σήμερα 15.05.2014 ήταν ημέρα συνεδρίασης του Διοικητικού Συμβουλίου του ΕΤΑΑ. Στην Ημερήσια Διάταξη, που περιελάμβανε μόνο 17 θέματα, δεν περιλαμβάνονταν καθόλου θέματα των Τομέων Μηχανικών και ΕΔΕ , αλλά μόνο θέματα του Τομέα Νομικών και των Τομέων Υγειονομικών.
-Επισημαίνεται δε ότι ο Πρόεδρος του Δ.Σ.,  προτίθετο να ανακοινώσει – και ήταν ευρέως γνωστό- θέμα που αφορούσε το υπαλληλικό προσωπικό του Ε.Τ.Α.Α., ανταποκρινόμενος σε αίτημα του Συλλόγου των εργαζομένων, συμμεριζόμενος την αγωνία τους για την πορεία του Ταμείου.
-
-Η συνεδρίαση δεν κατέστη δυνατόν να πραγματοποιηθεί.
                         </aside>
                 </div>
             </div>
             <div class="pure-u-6-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
+                <mycontent-box>   
+                    
+                    
+<!--                    Please add color here!           -->
+                    
+                    
+                    
+                    Για να δείτε τα στοιχεία της καρτέλας σας παρακαλούμε εγγραφείτε. </br>Η καρτέλα σας περιέχει αναλυτικά την ημερομηνία παραλαβής της συντάξεως σας και τις κρατήσεις πάνω σε αυτή. Επίσης την απεικόνιση των στοιχείων συντάξεων για τους τελευταίους μήνες.</br></br>
+                    <div align="center">       <!--    div 1.3.1    -->
+                        
+                         <div>      <!--    div 1.3.1    -->
+                            <a class="pure-button button align-middle" id="loginButton" onclick="loginToggle" href="#">Είσοδος</a>  
+                           <form class="pure-form pure-form-aligned hiden" id="loginForm">                  <!--  the form for login  -->
+                                <i id="loginClose" class="fa fa-times upper-corner"></i>
+                                <fieldset>
+                                    <div class="pure-control-group">
+                                        <label for="name">Όνομα Χρήστη</label>
+                                        <input id="name" type="text" placeholder="Username">
+                                    </div>
+
+                                    <div class="pure-control-group">
+                                        <label for="password">Κωδικός Πρόσβασης</label>
+                                        <input id="password" type="password" placeholder="Password">
+                                    </div>
+                                        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                                </fieldset>
+                            </form>  
+                        </div>
+                        <div class="margin-top-2">
+                        <a class="pure-button button" href="#">Εγγραφή</a>
+                        </div>
+                    </div>
+                </mycontent-box>
             </div>
             <div class="pure-u-6-24">
                 <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">

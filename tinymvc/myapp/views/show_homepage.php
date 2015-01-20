@@ -4,30 +4,32 @@
     <?php include("htdocs/includes/leftsidebar.php"); ?>
         <div class="pure-u-21-24">
             <div class="pure-u-7-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/insurance.jpg">
                 </div>
             </div>
             <div class="pure-u-7-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/pention.JPG">
                 </div>
             </div>
             <div class="pure-u-7-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/company.jpg">
                 </div>
             </div>
             <div class="pure-u-7-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/about_us1.jpg">
                 </div>
             </div>
             <div class="pure-u-7-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/FAQ.jpg">
                 </div>
             </div>
             <div class="pure-u-7-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
+                <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/contact_us.jpg">
                 </div>
             </div>
         </div>
         
     </div>
 </body>
+
+

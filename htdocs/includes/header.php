@@ -132,9 +132,9 @@
                                 <input id="password" type="password" placeholder="Password">
                             </div>
                                 <button type="submit" class="pure-button pure-button-primary">Submit</button>
-                            </div>
                         </fieldset>
                     </form>  
+                </div>
             <div class="left-padding-2x margin-top-2">
             <a class="pure-button button" href="#">Εγγραφή</a>
             </div>
@@ -202,13 +202,28 @@
         </li>
         <li>
             <h2><a href="<?php echo HOME ?>browse">Ασφαλισμένοι</a></h2>
-            <div class="cols-1">
-                <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
+            <div class="cols-4b ">
+                <p>Ένας Συνταξιούχος του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
+                <ol>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation"> Στοιχεία Ασφαλισμένου (login) </a></h3>
+                        Ένας ασφαλισμένος μπορεί να δει πληροφορίες σχετικά με τους κλάδους στους οποίους είναι εγγεγραμμένος για τις οφειλές του και τους διακανονισμούς πληρωμής που έχει με το ταμείο.
+                                                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3>Έγγραφα</h3>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3>Σύνταξη</h3>
+                    </li>
+                </ol>
             </div>
         </li>
         <li>
             <h2><a href="<?php echo HOME ?>browse">Συνταξιούχοι</a></h2>
-            <div class="cols-4b nodisplay-menu">
+            <div class="cols-4b ">
                 <p>Ένας Συνταξιούχος του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
                 <ol>
                     <li class="accessible-megamenu-panel-group">
@@ -219,23 +234,32 @@
                         <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
                     </li>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms">2.4 Navigable</a></h3>
-                        <p>Provide ways to help users navigate, find content, and determine where they are.</p>
-                        <ol>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip">2.4.1 Bypass Blocks</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title">2.4.2 Page Titled</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order">2.4.3 Focus Order</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs">2.4.4 Link Purpose (In Context)</a>
-                                <hr/>
-                            </li>
-                        </ol>
+                        <h3>Έγγραφα</h3>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3>Σύνταξη</h3>
                     </li>
                 </ol>
             </div>
         </li><li>
-            <h2><a href="<?php echo HOME ?>browse">Εταιρίες</a></h2>
-            <div class="cols-1">
-                <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
+            <h2><a href="<?php echo HOME ?>browse">Εργοδότες</a></h2>
+            <div class="cols-4b ">
+                <p>Ένας Εργοδότης που απασχολεί ασφαλισμένους του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
+                <ol>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation"> Δήλωση Αντιπροσώπων (login) </a></h3>
+                        <p>Ένας συνταξιούχος μπορεί να ενημερωθεί γύρο από τα θέματα της σύνταξης του.</p>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">Υποβολή Αιτήσεων Εργοδοτικών Εισφορών (aithseis)</a></h3>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3>Έγγραφα</h3>
+                    </li>
+                    <li class="accessible-megamenu-panel-group">
+                        <h3>Στοιχεία Υπάλληλων</h3>
+                    </li>
+                </ol>
             </div>
         </li><li>
             <h2><a href="<?php echo HOME ?>browse">Πιστούχοι</a></h2>
