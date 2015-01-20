@@ -69,7 +69,6 @@
     
     <!--  header   -->
 <div class="pure-g">
-   
 <!--   logo     -->
     <div class="pure-u-3-24 head_utils">       <!--    div 1.1    -->
         
