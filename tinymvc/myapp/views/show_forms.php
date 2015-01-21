@@ -27,13 +27,13 @@
         	<input type="radio"/>Συνταξιούχος
         	<br />
         	<label> Αριθμός Δύναμης ΚΥΤ</label><br />
-        	<input type="text" /><br />
+        	<input type="text" maxlength="10"/><br />
         	<label> Αριθμός Σύνταξης</label>
         	<br />
         	<input type="text" /><br />
         	<label> Αριθμός AMKA</label>
         	<br />
-        	<input type="text" />
+        	<input type="text" maxlength="6" />
         	<br />
         	<input type="submit"/>
         	
