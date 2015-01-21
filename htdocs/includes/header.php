@@ -20,6 +20,10 @@
             }
 )});</script>
     <script>
+    $(document).ready(
+    		function(){
+    			$(".accessible-megamenu-panel").width( $(".accessible-megamenu").width()-10);				$(".accessible-megamenu-panel").offset({left:$(".accessible-megamenu").position().left});
+})
        $(document).ready(function(){
 //           alert("Vale ena X icon panw de3ia sth forma kai dwstou id=\"loginClose\" kai meta phgaine ston kwdika grammh 24 kai diegrapse to alert");
            var loginShow = false;
@@ -33,6 +37,8 @@
             }
 })});</script>
 <script>
+
+$(".accessible-megamenu-top-nav-item").mouseover(function(){$(".open").with= $(".accessible-megamenu").width;})
         $("nav:first").accessibleMegaMenu({
             /* prefix for generated unique id attributes, which are required 
                to indicate aria-owns, aria-controls and aria-labelledby */
