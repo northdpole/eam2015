@@ -105,7 +105,7 @@
         </div>
 <!-- Search -->
         <div class="pure-u-1 search">                                  <!--    div 1.2.2    -->
-            <form class="pure-form pure-g">
+            <form class="pure-form pure-g" action="search">
                 <div class="pure-u-22-24">
                     <input class="pure-input-1" type="text">
                 </div>
@@ -180,7 +180,7 @@
             </div>
         </li>
         <li>
-            <h2><a href="<?php echo HOME ?>browse">Ασφαλισμένοι</a></h2>
+            <h2><a href="<?php echo HOME ?>#">Ασφαλισμένοι</a></h2>
             <div class="cols-4b ">
                 <p>Ένας Συνταξιούχος του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
                 <ol>
@@ -226,7 +226,7 @@
                 </ol>
             </div>
         </li><li>
-            <h2><a href="<?php echo HOME ?>browse">Εργοδότες</a></h2>
+            <h2><a href="<?php echo HOME ?>#">Εργοδότες</a></h2>
             <div class="cols-4b ">
                 <p>Ένας Εργοδότης που απασχολεί ασφαλισμένους του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
                 <ol>
@@ -246,7 +246,7 @@
                 </ol>
             </div>
         </li><li>
-            <h2><a href="<?php echo HOME ?>browse">Πιστούχοι</a></h2>
+            <h2><a href="<?php echo HOME ?>#">Πιστούχοι</a></h2>
             <div class="cols-1 nodisplay-menu">
                 <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
             </div>
