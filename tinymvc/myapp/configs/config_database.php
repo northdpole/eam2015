@@ -14,7 +14,7 @@ $config['default']['type'] = 'mysql';      // connection type
 $config['default']['host'] = 'localhost';  // db hostname
 $config['default']['name'] = 'eam';     // db name
 $config['default']['user'] = 'root';     // db username
-$config['default']['pass'] = 'northy';     // db password
+$config['default']['pass'] = 'root';     // db password
 $config['default']['persistent'] = false;  // db connection persistence?
 
 ?>

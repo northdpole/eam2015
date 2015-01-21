@@ -37,6 +37,17 @@ background: #85b9cc;
 background: lightgray;
     font-size: 50%;
 }
+
+#terakota1{
+background:#AC9491;
+}
+#terakota1{
+background:#9C5E54;
+}
+#terakota1{
+background:#693F38;
+}
+
 a{color:blue;}
 a:visited{color:#4b0ac6;}
 body>header,body>div{
