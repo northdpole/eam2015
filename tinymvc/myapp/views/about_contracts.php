@@ -4,8 +4,9 @@
 <body class="init">
     <div class="pure-g"> 
        <?php include("htdocs/includes/leftsidebar.php"); ?>
-        <h1>Συμβάσεις ΤΣΜΕΔΕ 2014</h1>
+        
         <div class="content pure-u-19-24">
+            <h1>Συμβάσεις ΤΣΜΕΔΕ 2014</h1>
             <aside id="categ_box">
             <h2>Συμβάσεις Φύλαξης</h2>
                 <a href="<?php echo BASEDIR ?>/htdocs/pdf/20141218.doc" target="_blank">Σύμβαση Φύλαξης ΤΣΜΕΔΕ Θεσσαλονίκης</a></br>

@@ -36,7 +36,7 @@ background: lightgray;
     font-size: 50%;
 }
 a{color:blue;}
-a:visited{color:#565656;}
+a:visited{color:#4b0ac6;}
 body>header,body>div{
 	
 	
@@ -49,6 +49,21 @@ font-size: 0.8em;
 .button{
 	
 }
+
+.fooForm{
+    text-align:center;
+    margin:0 auto;
+    display: block;
+    line-height:2em;
+    background-color: azure;}
+.fooForm label{
+    
+}
+.fooForm input{
+    margin-right:2%;
+}
+
+
 .relative_pos{position:relative;}
 
 #loginForm {

@@ -66,7 +66,7 @@
             </div>
             <div class="pure-u-6-24">
                 <aside id="categ_box" align="center">
-                    <a class="pure-button button align-middle" id="loginButton" onclick="loginToggle" href="#">Υπολογισμός </br> Σύνταξης</a>
+                    <a class="pure-button button align-middle" id="loginButton" onclick="loginToggle" href="<?php echo HOME ?>/pention_table">Υπολογισμός </br> Σύνταξης</a>
                     <div class="margin-top-2">
                     <a class="pure-button button align-middle" id="loginButton" onclick="loginToggle" href="#">Παροχές</a>
                     </div>
@@ -81,7 +81,7 @@
                 </aside>
             </div>
             <div class="pure-u-2-24">
-            <table class="pure-table">
+            <table class="pure-table pure-table-horizontal ">
     <thead>
         <tr>
             <th>Έγγραφα</th>
@@ -90,7 +90,7 @@
 
     <tbody>
         <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΣΤΡΑΤΙΩΤΙΚΗΣ ΘΗΤΕΙΑΣ στην ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ</a></td></tr>
-        <tr class="pure-table-odd"><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_children_time.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΠΑΙΔΙΩΝ στην ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ</a></td></tr>   
+        <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_children_time.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΠΑΙΔΙΩΝ στην ΕΙΔΙΚΗ ΠΡΟΣΑΥΞΗΣΗ</a></td></tr>   
         <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_degree_time.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΦΟΙΤΗΣΗΣ στην ΚΥΡΙΑ ΣΥΝΤΑΞΗ </a></td></tr>
     </tbody>
 </table>
