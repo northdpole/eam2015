@@ -5,9 +5,11 @@
     <?php include("htdocs/includes/leftsidebar.php"); ?>
         <div class="pure-u-21-24">
             <div class="pure-u-20-24">
-                <div class="pure-u-1">
+                
+                
+                <div class="pure-u-1 margin-top-2">
                 <aside id="categ_box" align="center">            
-            <table class="pure-table pure-table-horizontal" align=center>
+            <table class="pure-table pure-table-horizontal " align=center>
                 <thead>
                     <tr>
                         <th>Πίνακας Προσωπικής Σύνταξης</th>
