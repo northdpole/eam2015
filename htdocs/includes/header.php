@@ -207,11 +207,11 @@
                 <p>Ένας Συνταξιούχος του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
                 <ol>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation"> Στοιχεία Ασφαλισμένου (login) </a></h3>
+                        <h3><a href="<?php echo HOME ?>browse"> Στοιχεία Ασφαλισμένου (login) </a></h3>
                         Ένας ασφαλισμένος μπορεί να δει πληροφορίες σχετικά με τους κλάδους στους οποίους είναι εγγεγραμμένος για τις οφειλές του και τους διακανονισμούς πληρωμής που έχει με το ταμείο.
                                                     </li>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
+                        <h3><a href="<?php echo HOME ?>browse">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
                     </li>
                     <li class="accessible-megamenu-panel-group">
                         <h3>Έγγραφα</h3>
@@ -228,14 +228,19 @@
                 <p>Ένας Συνταξιούχος του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
                 <ol>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation"> Στοιχεία Συντάξης (login) </a></h3>
+                        <h3><a href="<?php echo HOME ?>browse"> Στοιχεία Συντάξης (login) </a></h3>
                         <p>Ένας συνταξιούχος μπορεί να ενημερωθεί γύρο από τα θέματα της σύνταξης του.</p>
                     </li>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
+                        <h3><a href="<?php echo HOME ?>browse">Υποβολή Αιτήσεων για βεβαιώσεις (aithseis)</a></h3>
                     </li>
                     <li class="accessible-megamenu-panel-group">
-                        <h3>Έγγραφα</h3>
+                        <h3>Έγγραφα</h3></br>
+                        Βεβαίωση Σύνταξης</br>
+                        Βεβαίωση Σύνταξης (με αιτιολόγηση συνταξιοδότησης)</br>
+                        Βεβαίωση Αποδοχών Συνταξιούχων</br>
+                        Βεβαίωση Εφορίας Συνταξιούχου</br>
+                        Βεβαίωση Αναλυτικών Κρατήσεων Συνταξιούχου
                     </li>
                     <li class="accessible-megamenu-panel-group">
                         <h3>Σύνταξη</h3>
@@ -248,7 +253,7 @@
                 <p>Ένας Εργοδότης που απασχολεί ασφαλισμένους του Τ.Σ.Μ.Ε.Δ.Ε. έχει τις εξής δυνατότητες :</p>
                 <ol>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation"> Δήλωση Αντιπροσώπων (login) </a></h3>
+                        <h3><a href="<?php echo HOME ?>browse"> Δήλωση Αντιπροσώπων (login) </a></h3>
                         <p>Ένας συνταξιούχος μπορεί να ενημερωθεί γύρο από τα θέματα της σύνταξης του.</p>
                     </li>
                     <li class="accessible-megamenu-panel-group">

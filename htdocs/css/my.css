@@ -25,7 +25,16 @@ color: #fff;
 
 background: lightgray;
 }
+#categ_box_side{
 
+background: #85b9cc;
+    font-size: 50%;
+}
+#categ_box_side_2{
+
+background: lightgray;
+    font-size: 50%;
+}
 a{color:blue;}
 a:visited{color:#565656;}
 body>header,body>div{

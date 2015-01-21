@@ -62,13 +62,16 @@
                         <li>Βεβαίωση Αναλυτικών Κρατήσεων Συνταξιούχου</li>
                     </ul>
                 </aside>
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
+               
             </div>
             <div class="pure-u-6-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
-                <aside id="categ_box">
+                <aside id="categ_box" align="center">
+                    <a class="pure-button button align-middle" id="loginButton" onclick="loginToggle" href="#">Υπολογισμός </br> Σύνταξης</a>
+                    <div class="margin-top-2">
+                    <a class="pure-button button align-middle" id="loginButton" onclick="loginToggle" href="#">Παροχές</a>
+                    </div>
+                </aside>
+                <aside id="categ_box" class="margin-top-2">
                     <h4>Νέα</h4>
                     <ul>
                         <li><a href="<?php echo HOME ?>" target="_blank">Ρύθμιση οφειλών προς τους Φορείς Κοινωνικής Ασφάλισης</a></li>

@@ -1,7 +1,13 @@
 
     
         <div class="pure-u-3-24">
-            <img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg" alt="Peyto Lake">
+            <aside id="categ_box_side">
+                <h2>Συμαντικές ημερωμηνίες:</h2>
+                <aside id="categ_box_side_2">
+                <h3>Παράταση της Αίτησης υποβολής αρχείων</h3></br> Τρίτη, 20 Ιανουαρίου 2015</br>
+Παρατείνεται έως και τις 30/01/2015 η υποβολή και επανυποβολή των ηλεκτρονικών αρχείων για όσους εργοδότες δεν πρόλαβαν να υποβάλουν τα αρχεία τους έως τις 15/01/2015.
+            </aside>
+            </aside>
             <i class="fa fa-envelope-o fa-2x"></i>
             <i class="fa fa-print fa-2x"></i>
             <div class="pure-u-1">

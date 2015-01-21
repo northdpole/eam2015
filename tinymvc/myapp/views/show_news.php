@@ -7,20 +7,20 @@
 
         <div class="pure-u-21-24">
             <div class="pure-u-11-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
+                <aside id="categ_box">
+                    here go ALL titles of articles from the database based on date
+                </aside>
             </div>
-            <div class="pure-u-5-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
-            </div>
-            <div class="pure-u-5-24">
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
-                <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
-                </div>
+            <div class="pure-u-12-24">
+                <aside id="categ_box">
+                    Here we put the ones about suntakseis
+                </aside>
+                <aside id="categ_box" class="margin-top-2">
+                    Here we put the ones about nosilia
+                </aside>
+                <aside id="categ_box" class="margin-top-2">
+                    Here we put the ones about eisfores
+                </aside>
             </div>
         </div>
         
