@@ -69,7 +69,7 @@
                 <div class="l-box"><img class="pure-img" src="http://upload.wikimedia.org/wikipedia/commons/9/92/1923_Daimler_57hp_9.4_Litre_Hooper_Limousine_IMG_1024.jpg">
                 </div>
                 <aside id="categ_box">
-                    <h4>Να</h4>
+                    <h4>Νέα</h4>
                     <ul>
                         <li><a href="<?php echo HOME ?>" target="_blank">Ρύθμιση οφειλών προς τους Φορείς Κοινωνικής Ασφάλισης</a></li>
                         <li><a href="<?php echo HOME ?>" target="_blank">ΕΙδοποιητήριο Β΄ Εξαμήνου 2014</a></li>
