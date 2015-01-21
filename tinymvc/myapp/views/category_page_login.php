@@ -1,10 +1,10 @@
 <?php include("htdocs/includes/header.php"); ?>
 
-<body>
     <div class="pure-g"> 
     <?php include("htdocs/includes/leftsidebar.php"); ?>
-        <div class="pure-u-21-24">
+        <div class="pure-u-19-24">
             <div class="pure-u-20-24">
+<<<<<<< HEAD
                 
                 
                 <div class="pure-u-1 margin-top-2">
@@ -40,15 +40,24 @@
                         <td>01/10/2008</td>
                         <td>σήμερα </td>
                     </tr>
+=======
+                <div class="pure-u-1">
+                <aside id="categ_box" align="center"> 
+>>>>>>> 512baf159452eea1c4942ad5f89ed73566bb1b1e
 
-                    <tr>
-                        <td>589,35</td>
-                        <td>01/10/2008</td>
-                        <td>σήμερα </td>
-                    </tr>
-                    
-                </tbody>
-            </table>
+                	<h2>Πίνακας Προσωπικής Σύνταξης</h2>           
+            		<select>
+            			<option  selected="selected">Γήρατος Προσωπικη</option>
+            			<option>Aναπηρική Προσωπικη</option>
+            			<option>Θανάτου 75%</option>
+            			<option>Θανάτου 60%</option>
+            			<option>Θανάτου 25%</option>
+            		</select>
+            		<input id="rand" value="" type="text"  />
+            		<input type="submit" id="pen" />
+										<script type="text/javascript">
+              			$("#pen").click(function(){console.log("clicked"); $("#rand").val(Math.floor((Math.random()*1000)))});
+                	</script>
                 </aside>
             </div>
             <div class="pure-u-1 margin-top-2">

@@ -11,6 +11,7 @@ class Search_Controller extends Base_Controller
     $result = $this->art->search($query);
 	//var_dump($result);
 	$this->view->assign('res',$result);
+	$this->view->assign('query',$query);
 	$this->view->display('search_results');
     var_dump($query); 
     // return the result array

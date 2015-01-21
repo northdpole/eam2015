@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="<?php echo BASEDIR ?>/htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php echo BASEDIR ?>/htdocs/css/font-awesome-4.2.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php echo BASEDIR ?>/htdocs/css/my.css">
+
 <script src="<?php echo BASEDIR ?>/htdocs/js/main.js"></script>
     
     <script>

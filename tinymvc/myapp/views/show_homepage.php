@@ -2,7 +2,7 @@
 <body>
     <div class="pure-g"> 
     <?php include("htdocs/includes/leftsidebar.php"); ?>
-        <div class="pure-u-21-24">
+        <div class="pure-u-19-24">
             <div class="pure-u-7-24">
                 <div class="l-box"><img class="pure-img homepage-image-box" src="<?php echo BASEDIR ?>/htdocs/images/insurance.jpg">
                 </div>

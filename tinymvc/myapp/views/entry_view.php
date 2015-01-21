@@ -1,8 +1,6 @@
 
 <?php include("htdocs/includes/header.php"); ?>
 
-
-<body class="init">
     <div class="pure-g"> 
        <?php include("htdocs/includes/leftsidebar.php"); ?>
 
