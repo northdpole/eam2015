@@ -1,52 +1,25 @@
 <?php include("htdocs/includes/header.php"); ?>
 
-<body>
     <div class="pure-g"> 
     <?php include("htdocs/includes/leftsidebar.php"); ?>
         <div class="pure-u-19-24">
             <div class="pure-u-20-24">
                 <div class="pure-u-1">
-                <aside id="categ_box" align="center">            
-            <table class="pure-table pure-table-horizontal" align=center>
-                <thead>
-                    <tr>
-                        <th>Πίνακας Προσωπικής Σύνταξης</th>
-                        <th colspan="2">Ισχύς Πίνακα</th>
-                    </tr>
-                </thead>
+                <aside id="categ_box" align="center"> 
 
-                <tbody>
-                    <tr>
-                        <th></th>
-                        <th>από</th>
-                        <th>έος</th>
-                    </tr>
-
-                    <tr>
-                        <td>509,47</td>
-                        <td>01/10/2008</td>
-                        <td>σήμερα </td>
-                    </tr>
-
-                    <tr>
-                        <td> 33,88</td>
-                        <td>01/10/2008</td>
-                        <td>σήμερα </td>
-                    </tr>
-                    <tr>
-                        <td>--</td>
-                        <td>01/10/2008</td>
-                        <td>σήμερα </td>
-                    </tr>
-
-                    <tr>
-                        <td>589,35</td>
-                        <td>01/10/2008</td>
-                        <td>σήμερα </td>
-                    </tr>
-                    
-                </tbody>
-            </table>
+                	<h2>Πίνακας Προσωπικής Σύνταξης</h2>           
+            		<select>
+            			<option  selected="selected">Γήρατος Προσωπικη</option>
+            			<option>Aναπηρική Προσωπικη</option>
+            			<option>Θανάτου 75%</option>
+            			<option>Θανάτου 60%</option>
+            			<option>Θανάτου 25%</option>
+            		</select>
+            		<input id="rand" value="" type="text"  />
+            		<input type="submit" id="pen" />
+										<script type="text/javascript">
+              			$("#pen").click(function(){console.log("clicked"); $("#rand").val(Math.floor((Math.random()*1000)))});
+                	</script>
                 </aside>
             </div>
             <div class="pure-u-1 margin-top-2">
