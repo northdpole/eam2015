@@ -148,7 +148,7 @@ $(".accessible-megamenu-top-nav-item").mouseover(function(){$(".open").with= $("
                 </div> <div class="left-padding-2x margin-top-2">
             <a class="pure-button button" href="#">Εγγραφή</a>
             </div>';
-	}else{ $login = 'Καλωσήρθατε '.$_SESSION['uname'].'<p><a href="login?out=1">Aποσύνδεση</a>';}
+	}else{ $login = 'Καλωσήρθατε '.$_SESSION['uname'].'<p><a href="register">Το προφίλ σας</a></br><a href="login?out=1">Aποσύνδεση</a>';}
         	    echo $login; ?>    
 		
 

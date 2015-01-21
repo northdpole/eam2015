@@ -13,8 +13,7 @@ class Search_Controller extends Base_Controller
 	$this->view->assign('res',$result);
 	$this->view->assign('query',$query);
 	$this->view->display('search_results');
-    var_dump($query); 
-    // return the result array
+        // return the result array
   }
 }
 

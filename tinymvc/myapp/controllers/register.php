@@ -5,8 +5,13 @@ class Register_Controller extends Base_Controller
   function index()
   {
   	$this->load->model("User","user");
+	if(!isset($_SESSION['uid'])){
+		$uid = "";
+		header("Location:index.php");
+  }
+	else
 	$uid = $_SESSION['uid'];
-	if(isset($_POST['submit'])){var_dump($uid);
+	if(isset($_POST['submit'])){
 	$this->user->update($_POST["name"],
 						$_POST["surname"],
 					  	$_POST["address"],
