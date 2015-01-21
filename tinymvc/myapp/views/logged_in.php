@@ -3,7 +3,7 @@
 <body>
     <div class="pure-g"> 
     <?php include("htdocs/includes/leftsidebar.php"); ?>
-        <div class="pure-u-21-24">
+        <div class="pure-u-19-24">
             <div class="pure-u-1">
                 <div class="padding-content-box small-font">
                     <aside>

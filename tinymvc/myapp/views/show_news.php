@@ -5,7 +5,7 @@
     <div class="pure-g"> 
 <?php  require_once("htdocs/includes/leftsidebar.php"); ?>
 
-        <div class="pure-u-21-24">
+        <div class="pure-u-19-24">
             <div class="pure-u-11-24">
                 <aside id="categ_box">
                     <?=$content?>

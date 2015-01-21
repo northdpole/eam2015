@@ -2,11 +2,10 @@
 <?php include("htdocs/includes/header.php"); ?>
 
 
-<body class="init">
     <div class="pure-g"> 
        <?php include("htdocs/includes/leftsidebar.php"); ?>
 
-        <div class="content pure-u-20-24">
+        <div class="content pure-u-19-24">
             <div class="pure-u-1">
                 <div class="small-font">              
   <aside>

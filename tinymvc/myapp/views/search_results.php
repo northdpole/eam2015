@@ -3,7 +3,7 @@
 <body>
     <div class="pure-g"> 
     <?php include("htdocs/includes/leftsidebar.php"); ?>
-        <div class="pure-u-21-24">
+        <div class="pure-u-19-24">
             <div class="pure-u-23-24">
                 <div class="l-box">
                 <h2> This is a search results page it shold contain google like results</h2>
