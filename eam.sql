@@ -1,30 +1,19 @@
--- phpMyAdmin SQL Dump
--- version 4.2.10
--- http://www.phpmyadmin.net
---
--- Host: localhost:3306
--- Generation Time: Jan 21, 2015 at 09:46 PM
--- Server version: 5.5.38
--- PHP Version: 5.6.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
---
--- Database: `eam`
---
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `Article`
 --
+use eamuser15
+DROP TABLE IF EXISTS  Article;
 
-CREATE TABLE `Article` (
+CREATE TABLE IF NOT EXISTS `Article` (
   `id` int(11) NOT NULL,
   `date` date NOT NULL,
   `content` longtext CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
-  `Title` varchar(128) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL
+  `Title` varchar(128) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -32,8 +21,6 @@ CREATE TABLE `Article` (
 --
 
 INSERT INTO `Article` (`id`, `date`, `content`, `Title`) VALUES
-(0, '2015-01-01', 'art1', 'foo'),
-(1, '2015-01-27', 'asdfasdfasdfadsfasdfasdf', 'bar'),
 (100, '2015-01-20', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Συντάξεις/Πληροφορίες'),
 (101, '2015-01-14', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Εισφορές/Πληροφορίες'),
 (102, '2015-01-29', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Προυποθέσεις/ΦΕΚ'),
@@ -46,10 +33,12 @@ INSERT INTO `Article` (`id`, `date`, `content`, `Title`) VALUES
 --
 -- Table structure for table `articleCategories`
 --
-
-CREATE TABLE `articleCategories` (
+DROP TABLE IF EXISTS  articleCategories;
+CREATE TABLE IF NOT EXISTS `articleCategories` (
   `article_id` int(11) NOT NULL,
-  `categ_id` int(11) NOT NULL
+  `categ_id` int(11) NOT NULL,
+  KEY `article_id` (`article_id`,`categ_id`),
+  KEY `categ_id` (`categ_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -57,8 +46,6 @@ CREATE TABLE `articleCategories` (
 --
 
 INSERT INTO `articleCategories` (`article_id`, `categ_id`) VALUES
-(0, 0),
-(1, 1),
 (100, 100),
 (100, 101),
 (100, 101),
@@ -74,10 +61,11 @@ INSERT INTO `articleCategories` (`article_id`, `categ_id`) VALUES
 --
 -- Table structure for table `Category`
 --
-
-CREATE TABLE `Category` (
+DROP TABLE IF EXISTS  Category;
+CREATE TABLE IF NOT EXISTS `Category` (
   `id` int(11) NOT NULL,
-  `name` varchar(128) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL
+  `name` varchar(128) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -85,8 +73,6 @@ CREATE TABLE `Category` (
 --
 
 INSERT INTO `Category` (`id`, `name`) VALUES
-(0, 'cat1'),
-(1, 'cat2'),
 (100, 'Συντάξεις'),
 (101, 'Νοσήλια'),
 (102, 'Παροχές');
@@ -97,11 +83,14 @@ INSERT INTO `Category` (`id`, `name`) VALUES
 -- Table structure for table `Document`
 --
 
-CREATE TABLE `Document` (
+DROP TABLE IF EXISTS  Document;
+CREATE TABLE IF NOT EXISTS `Document` (
   `id` int(11) NOT NULL,
   `date` date NOT NULL,
   `content` longtext NOT NULL,
-  `Title` varchar(128) NOT NULL
+  `Title` varchar(128) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -109,8 +98,6 @@ CREATE TABLE `Document` (
 --
 
 INSERT INTO `Document` (`id`, `date`, `content`, `Title`) VALUES
-(0, '2015-01-01', 'doc1', 'foo'),
-(1, '2015-01-27', 'asdfasdfasdfadsfasdfasdf', 'bar'),
 (3, '2015-01-14', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare magna eu lacus faucibus, sed vulputate erat facilisis. Curabitur tincidunt tincidunt fermentum. Suspendisse gravida justo massa, hendrerit rutrum erat commodo a. Integer a euismod turpis, vel ultricies diam. Proin efficitur accumsan diam eget molestie. Praesent at est in ipsum bibendum tincidunt. Aenean bibendum finibus diam, quis dignissim diam vestibulum ac. Praesent sed ligula a orci malesuada finibus. Nulla facilisis neque vel nisl convallis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et hendrerit leo. Vivamus ac tempus nunc, at tincidunt magna. Suspendisse aliquam sit amet tortor sit amet ultricies. Sed venenatis magna eu ultricies fringilla. Donec dapibus ac nisi eu efficitur. Donec rutrum facilisis arcu sit amet condimentum. Proin suscipit faucibus neque ac blandit. Fusce tincidunt consectetur turpis. Maecenas non mollis tortor, eget ornare sapien. Praesent eleifend aliquet diam nec mattis. Morbi eu tellus magna. Maecenas non est sed magna tincidunt efficitur vel in sem. Etiam semper elementum quam, vel consequat odio fermentum non. Etiam efficitur, mi a dictum ultrices, sapien est lobortis elit, vitae mollis nibh dolor id tortor. Nunc eget lacinia justo, quis pretium dolor. Pellentesque feugiat nunc tortor, nec sagittis elit lobortis non.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare magna eu lacus faucibus, sed vulputate erat facilisis. Curabitur tincidunt tincidunt fermentum. Suspendisse gravida justo massa, hendrerit rutrum erat commodo a. Integer a euismod turpis, vel ultricies diam. Proin efficitur accumsan diam eget molestie. Praesent at est in ipsum bibendum tincidunt. Aenean bibendum finibus diam, quis dignissim diam vestibulum ac. Praesent sed ligula a orci malesuada finibus. Nulla facilisis neque vel nisl convallis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et hendrerit leo. Vivamus ac tempus nunc, at tincidunt magna. Suspendisse aliquam sit amet tortor sit amet ultricies. Sed venenatis magna eu ultricies fringilla. Donec dapibus ac nisi eu efficitur. Donec rutrum facilisis arcu sit amet condimentum. Proin suscipit faucibus neque ac blandit. Fusce tincidunt consectetur turpis. Maecenas non mollis tortor, eget ornare sapien. Praesent eleifend aliquet diam nec mattis. Morbi eu tellus magna. Maecenas non est sed magna tincidunt efficitur vel in sem. Etiam semper elementum quam, vel consequat odio fermentum non. Etiam efficitur, mi a dictum ultrices, sapien est lobortis elit, vitae mollis nibh dolor id tortor. Nunc eget lacinia justo, quis pretium dolor. Pellentesque feugiat nunc tortor, nec sagittis elit lobortis non.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare magna eu lacus faucibus, sed vulputate erat facilisis. Curabitur tincidunt tincidunt fermentum. Suspendisse gravida justo massa, hendrerit rutrum erat commodo a. Integer a euismod turpis, vel ultricies diam. Proin efficitur accumsan diam eget molestie. Praesent at est in ipsum bibendum tincidunt. Aenean bibendum finibus diam, quis dignissim diam vestibulum ac. Praesent sed ligula a orci malesuada finibus. Nulla facilisis neque vel nisl convallis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et hendrerit leo. Vivamus ac tempus nunc, at tincidunt magna. Suspendisse aliquam sit amet tortor sit amet ultricies. Sed venenatis magna eu ultricies fringilla. Donec dapibus ac nisi eu efficitur. Donec rutrum facilisis arcu sit amet condimentum. Proin suscipit faucibus neque ac blandit. Fusce tincidunt consectetur turpis. Maecenas non mollis tortor, eget ornare sapien. Praesent eleifend aliquet diam nec mattis. Morbi eu tellus magna. Maecenas non est sed magna tincidunt efficitur vel in sem. Etiam semper elementum quam, vel consequat odio fermentum non. Etiam efficitur, mi a dictum ultrices, sapien est lobortis elit, vitae mollis nibh dolor id tortor. Nunc eget lacinia justo, quis pretium dolor. Pellentesque feugiat nunc tortor, nec sagittis elit lobortis non.', '');
 
 -- --------------------------------------------------------
@@ -119,9 +106,12 @@ INSERT INTO `Document` (`id`, `date`, `content`, `Title`) VALUES
 -- Table structure for table `DocumentCategories`
 --
 
-CREATE TABLE `DocumentCategories` (
+DROP TABLE IF EXISTS  DocumentCategories;
+CREATE TABLE IF NOT EXISTS `DocumentCategories` (
   `document_id` int(11) NOT NULL,
-  `categ_id` int(11) NOT NULL
+  `categ_id` int(11) NOT NULL,
+  KEY `document_id` (`document_id`),
+  KEY `categ_id` (`categ_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -129,8 +119,8 @@ CREATE TABLE `DocumentCategories` (
 --
 
 INSERT INTO `DocumentCategories` (`document_id`, `categ_id`) VALUES
-(0, 0),
-(1, 1);
+(3, 0),
+(3, 1);
 
 -- --------------------------------------------------------
 
@@ -138,20 +128,22 @@ INSERT INTO `DocumentCategories` (`document_id`, `categ_id`) VALUES
 -- Table structure for table `User`
 --
 
-CREATE TABLE `User` (
+DROP TABLE IF EXISTS  User;
+CREATE TABLE IF NOT EXISTS `User` (
   `id` int(11) NOT NULL,
   `name` varchar(128) COLLATE utf8_bin NOT NULL,
   `surname` varchar(128) COLLATE utf8_bin NOT NULL,
   `address` varchar(128) COLLATE utf8_bin NOT NULL,
   `postcode` varchar(128) COLLATE utf8_bin NOT NULL,
   `city` varchar(128) COLLATE utf8_bin NOT NULL,
-  `afm` varchar(128) CHARACTER SET latin1 NOT NULL,
-  `kyt` varchar(128) CHARACTER SET latin1 NOT NULL,
-  `amka` varchar(128) CHARACTER SET latin1 NOT NULL,
-  `retired` varchar(128) CHARACTER SET latin1 NOT NULL,
-  `pensionNo` varchar(128) CHARACTER SET latin1 NOT NULL,
-  `iban` varchar(128) CHARACTER SET latin1 NOT NULL,
-  `bank` varchar(128) COLLATE utf8_bin NOT NULL
+  `afm` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `kyt` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `amka` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `retired` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `pensionNo` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `iban` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `bank` varchar(128) COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
@@ -159,8 +151,7 @@ CREATE TABLE `User` (
 --
 
 INSERT INTO `User` (`id`, `name`, `surname`, `address`, `postcode`, `city`, `afm`, `kyt`, `amka`, `retired`, `pensionNo`, `iban`, `bank`) VALUES
-(0, 'asdf', '????', '3 ????? 5 a', '1234a', '?????? ??????a', '341234a', '12341234a', '9870987a', '1', '987698762', '9876986897698698672', '????2'),
-(1, '', '', '', '', '', '', '', '', '', '', '', '');
+(0, 'Γεώργιος', 'Γκουσγκούνης', '3 Ύδρας 5 ','1456', 'Zion', '3241324', '134324', '12341234',  '1', '987698762', '9876986897698698672', 'Alpha');
 
 -- --------------------------------------------------------
 
@@ -168,9 +159,12 @@ INSERT INTO `User` (`id`, `name`, `surname`, `address`, `postcode`, `city`, `afm
 -- Table structure for table `UserDocuments`
 --
 
-CREATE TABLE `UserDocuments` (
+DROP TABLE IF EXISTS  UserDocuments;
+CREATE TABLE IF NOT EXISTS `UserDocuments` (
   `categ_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL
+  `user_id` int(11) NOT NULL,
+  KEY `categ_id` (`categ_id`),
+  KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -187,9 +181,12 @@ INSERT INTO `UserDocuments` (`categ_id`, `user_id`) VALUES
 -- Table structure for table `userSubscriptions`
 --
 
-CREATE TABLE `userSubscriptions` (
+DROP TABLE IF EXISTS  userSubscriptions;
+CREATE TABLE IF NOT EXISTS `userSubscriptions` (
   `userid` int(11) NOT NULL,
-  `categ_id` int(11) NOT NULL
+  `categ_id` int(11) NOT NULL,
+  KEY `categ_id` (`categ_id`),
+  KEY `user_id` (`userid`,`categ_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -202,59 +199,7 @@ INSERT INTO `userSubscriptions` (`userid`, `categ_id`) VALUES
 (0, 1),
 (0, 100),
 (0, 101),
-(1, 1);
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `Article`
---
-ALTER TABLE `Article`
- ADD PRIMARY KEY (`id`), ADD KEY `id` (`id`);
-
---
--- Indexes for table `articleCategories`
---
-ALTER TABLE `articleCategories`
- ADD KEY `article_id` (`article_id`,`categ_id`), ADD KEY `categ_id` (`categ_id`);
-
---
--- Indexes for table `Category`
---
-ALTER TABLE `Category`
- ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `Document`
---
-ALTER TABLE `Document`
- ADD PRIMARY KEY (`id`), ADD KEY `id` (`id`);
-
---
--- Indexes for table `DocumentCategories`
---
-ALTER TABLE `DocumentCategories`
- ADD KEY `document_id` (`document_id`), ADD KEY `categ_id` (`categ_id`);
-
---
--- Indexes for table `User`
---
-ALTER TABLE `User`
- ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `UserDocuments`
---
-ALTER TABLE `UserDocuments`
- ADD KEY `categ_id` (`categ_id`), ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `userSubscriptions`
---
-ALTER TABLE `userSubscriptions`
- ADD KEY `categ_id` (`categ_id`), ADD KEY `user_id` (`userid`,`categ_id`);
+(0, 1);
 
 --
 -- Constraints for dumped tables
@@ -264,19 +209,16 @@ ALTER TABLE `userSubscriptions`
 -- Constraints for table `articleCategories`
 --
 ALTER TABLE `articleCategories`
-ADD CONSTRAINT `articleCategories_ibfk_1` FOREIGN KEY (`article_id`) REFERENCES `Article` (`id`),
-ADD CONSTRAINT `articleCategories_ibfk_2` FOREIGN KEY (`categ_id`) REFERENCES `Category` (`id`);
-
---
--- Constraints for table `DocumentCategories`
---
-ALTER TABLE `DocumentCategories`
-ADD CONSTRAINT `DocumentCategories_ibfk_1` FOREIGN KEY (`document_id`) REFERENCES `Document` (`id`),
-ADD CONSTRAINT `DocumentCategories_ibfk_2` FOREIGN KEY (`categ_id`) REFERENCES `Category` (`id`);
+  ADD CONSTRAINT `articleCategories_ibfk_1` FOREIGN KEY (`article_id`) REFERENCES `Article` (`id`),
+  ADD CONSTRAINT `articleCategories_ibfk_2` FOREIGN KEY (`categ_id`) REFERENCES `Category` (`id`);
 
 --
 -- Constraints for table `userSubscriptions`
 --
 ALTER TABLE `userSubscriptions`
-ADD CONSTRAINT `userSubscriptions_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `User` (`id`),
-ADD CONSTRAINT `userSubscriptions_ibfk_2` FOREIGN KEY (`categ_id`) REFERENCES `Category` (`id`);
+  ADD CONSTRAINT `userSubscriptions_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `User` (`id`),
+  ADD CONSTRAINT `userSubscriptions_ibfk_2` FOREIGN KEY (`categ_id`) REFERENCES `Category` (`id`);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
