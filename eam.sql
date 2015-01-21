@@ -4,7 +4,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 --
 -- Table structure for table `Article`
 --
-use eamuser15
+use eam
 DROP TABLE IF EXISTS  Article;
 
 CREATE TABLE IF NOT EXISTS `Article` (
@@ -21,9 +21,6 @@ CREATE TABLE IF NOT EXISTS `Article` (
 --
 
 INSERT INTO `Article` (`id`, `date`, `content`, `Title`) VALUES
-(100, '2015-01-20', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Συντάξεις/Πληροφορίες'),
-(101, '2015-01-14', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Εισφορές/Πληροφορίες'),
-(102, '2015-01-29', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Προυποθέσεις/ΦΕΚ'),
 (550, '2015-01-14', 'Από τις 12 Δεκεμβρίου 2011 ενεργοποιείται το Νέο Σύστημα Καταβολής των Νοσηλίων «απευθείας» στους Τραπεζικούς Λογαριασμούς των ασφαλισμένων.</br>\r\nΗ καταβολή νοσηλίων από το Ταμείο πλέον καταργείται.</br>\r\nΠροσοχή :\r\nΕίναι ΑΠΑΡΑΙΤΗΤΟ πλέον ο ΑΜΕΣΑ ασφαλισμένος να έχει δηλώσει το ΙΒΑΝ του τραπεζικού του λογαριασμού μέσω :\r\nα) αίτησης ή\r\nβ) απευθείας από τον ίδιο μέσω του διαδικτύου.\r\n</br>\r\nΑπουσία αριθμού ΙΒΑΝ δεν γίνεται αποδεκτή η παραλαβή των δικαιολογητικών Νοσηλίων από κανένα υποκατάστημα.</br>\r\n</br>\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/new_system.pdf" target="_blank"> Περισσότερα.</a>', 'ΝΕΟ σύστημα καταβολής Νοσηλίων'),
 (551, '2015-01-20', 'Οι μέχρι 31/12/1992 ασφαλισμένοι (παλαιοί ασφαλισμένοι), οι οποίοι την 01/01/2007 είχαν ηλικία άνω των πενήντα πέντε ετών και είχαν υπαχθεί υποχρεωτικά στον Κλάδο Επικουρικής Ασφάλισης (αρ.13 Ν.3518/06), διαγράφονται από τον Κλάδο Επικουρικής Ασφάλισης του ΕΤΑΑ/ΤΕΑΜΕΔΕ αναδρομικά από 01/01/2007, τα δε ποσά των ασφαλιστικών εισφορών που τους παρακρατήθηκαν επιστρέφονται ως αχρεωστήτως καταβληθέντα , μετά από υποβολή σχετικής αίτησης (άρθρ.59Ν3996/11).</br>\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/delete.pdf" target="_blank">Περισσότερα</a>', 'Διαγραφή απο Κλάδο Επικουρικής Ασφάλισης'),
 (552, '2015-01-06', 'Φέτος θα ισχύσει για ΕΚΤΗ χρονιά το σύστημα της κράτησης θέσεων στις κατασκηνώσεις.\r\n</br>\r\nΟι ασφαλισμένοι μας θα πρέπει να επικοινωνούν με τη κατασκήνωση της αρεσκείας τους, να δηλώνουν τον ασφαλιστικό τους φορέα, να ενημερώνονται για τη πληρότητά της στη περίοδο που τους ενδιαφέρει και τέλος να προχωρούν σε κράτηση θέσης για το παιδί τους.\r\n</br>\r\nΟι κρατήσεις μπορούν να γίνονται μόνο σε συμβεβλημένες με το ΕΤΑΑ-ΤΣΜΕΔΕ κατασκηνώσεις και για τις περιόδους που αυτές θα συνεργαστούν με το Ταμείο\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/delete.pdf" target="_blank">Περισσότερα</a>', 'Κατασκηνώσεις');
@@ -46,12 +43,6 @@ CREATE TABLE IF NOT EXISTS `articleCategories` (
 --
 
 INSERT INTO `articleCategories` (`article_id`, `categ_id`) VALUES
-(100, 100),
-(100, 101),
-(100, 101),
-(101, 102),
-(102, 102),
-(102, 102),
 (550, 101),
 (551, 100),
 (552, 102);
@@ -194,12 +185,9 @@ CREATE TABLE IF NOT EXISTS `userSubscriptions` (
 --
 
 INSERT INTO `userSubscriptions` (`userid`, `categ_id`) VALUES
-(0, 0),
-(0, 0),
-(0, 1),
 (0, 100),
 (0, 101),
-(0, 1);
+(0, 102);
 
 --
 -- Constraints for dumped tables
