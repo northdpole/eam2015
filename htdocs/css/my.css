@@ -3,7 +3,9 @@
  *  My css
  * -------------------------- 
  * */
-
+.green{background-color:green!important;}
+.green a{color:white!important; }
+.red{background-color:red!important;color:white;}
 html{background-color:#e6e6e6;}
 #container{background-color:#fff;
 	padding:2%;width:80%;margin: 0 auto;display:table;

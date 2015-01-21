@@ -69,7 +69,7 @@
                     <tr>
                         <td>Βεβαίωση Σύνταξης</td>
                         <td>NAI</td>
-                        <td bgcolor="#FF0000">Έλεγχος εκρεμεί </td>
+                        <td class="red">Έλεγχος εκρεμεί </td>
                     </tr><tr>
                         <td>Βεβαίωση Σύνταξης (με αιτιολόγηση συνταξιοδότησης)</td>
                         <td>OXI</td>
@@ -77,7 +77,7 @@
                     </tr><tr>
                         <td>Βεβαίωση Αποδοχών Συνταξιούχων</td>
                         <td>NAI</td>
-                        <td bgcolor="#FF0000">Έλεγχος εκκρεμεί</td>
+                        <td  class="red">Έλεγχος εκκρεμεί</td>
                     </tr><tr>
                         <td>Βεβαίωση Κρατήσεων για ΚΥΤ</td>
                         <td>OXI</td>
@@ -89,7 +89,7 @@
                     </tr><tr>
                         <td>Βεβαίωση Αναλυτικών Κρατήσεων Συνταξιούχου</td>
                         <td>NAI</td>
-                    <td bgcolor="#00FF00"><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf" target="_blank">Έκτύπωση</a></td>
+                    <td class="green"><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf" target="_blank">Έκτύπωση</a></td>
                     </tr>
                     
                 </tbody>
