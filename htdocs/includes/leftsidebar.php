@@ -8,5 +8,8 @@
             <i class="fa fa-twitter fa-2x"></i>
             <i class="fa fa-facebook fa-2x"></i>
             <i class="fa fa-google fa-2x"></i>
+                <a href="http://www.ypakp.gr" target="_blank"><img height="30" src="<?php echo BASEDIR ?>/htdocs/images/f1.jpg"></></a>
+                <a href="http://europa.eu/index_en.htm" target="_blank"><img height="30" src="<?php echo BASEDIR ?>/htdocs/images/f2.jpg"></></a>
+                <a href="http://www.w3.org/WAI/WCAG1AA-Conformance" target="_blank"><img height="30" src="<?php echo BASEDIR ?>/htdocs/images/w3c.jpg"></></a>
             </div>
         </div>

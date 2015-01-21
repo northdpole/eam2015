@@ -4,8 +4,46 @@
     <?php include("htdocs/includes/leftsidebar.php"); ?>
         <div class="pure-u-19-24">
             <div class="pure-u-20-24">
+<<<<<<< HEAD
+                
+                
+                <div class="pure-u-1 margin-top-2">
+                <aside id="categ_box" align="center">            
+            <table class="pure-table pure-table-horizontal " align=center>
+                <thead>
+                    <tr>
+                        <th>Πίνακας Προσωπικής Σύνταξης</th>
+                        <th colspan="2">Ισχύς Πίνακα</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>από</th>
+                        <th>έος</th>
+                    </tr>
+
+                    <tr>
+                        <td>509,47</td>
+                        <td>01/10/2008</td>
+                        <td>σήμερα </td>
+                    </tr>
+
+                    <tr>
+                        <td> 33,88</td>
+                        <td>01/10/2008</td>
+                        <td>σήμερα </td>
+                    </tr>
+                    <tr>
+                        <td>--</td>
+                        <td>01/10/2008</td>
+                        <td>σήμερα </td>
+                    </tr>
+=======
                 <div class="pure-u-1">
                 <aside id="categ_box" align="center"> 
+>>>>>>> 512baf159452eea1c4942ad5f89ed73566bb1b1e
 
                 	<h2>Πίνακας Προσωπικής Σύνταξης</h2>           
             		<select>
