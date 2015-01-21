@@ -118,9 +118,10 @@
 <!-- login-register -->
         <div class="pure-u-3-24 head_utils register">                <!--    div 1.3    -->
             <div class=" left-padding-2x ">       <!--    div 1.3.1    -->
-                 <div class=" left-padding-2x relative_pos">       <!--    div 1.3.1    -->
-                    <a class="pure-button button" id="loginButton" onclick="loginToggle" href="#">Είσοδος</a>  
-                   <form class="pure-form pure-form-aligned hiden" id="loginForm">                  <!--  the form for login  -->
+			<?php	if(!isset($_SESSION['uid'])){
+  	$login = '<div class=" left-padding-2x relative_pos">       <!--    div 1.3.1    -->
+                   <a class="pure-button button" id="loginButton" onclick="loginToggle" href="#">Είσοδος</a>  
+                   <form method="POST" action="login" class="pure-form pure-form-aligned hiden" id="loginForm">                  <!--  the form for login  -->
                         <i id="loginClose" class="fa fa-times upper-corner"></i>
                         <fieldset>
                             <div class="pure-control-group">
@@ -134,11 +135,16 @@
                             </div>
                                 <button type="submit" class="pure-button pure-button-primary">Submit</button>
                         </fieldset>
+                        
                     </form>  
-                </div>
-            <div class="left-padding-2x margin-top-2">
+                </div> <div class="left-padding-2x margin-top-2">
             <a class="pure-button button" href="#">Εγγραφή</a>
-            </div>
+            </div>';
+	}else{ $login = 'Καλωσήρθατε '.$_SESSION['uname'].'<p><a href="login?out=1">Aποσύνδεση</a>';}
+        	    echo $login; ?>    
+		
+
+           
             </div>
         </div>  
    
