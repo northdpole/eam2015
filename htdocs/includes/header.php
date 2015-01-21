@@ -156,41 +156,13 @@
         </li>
         <li>
             <h2><a href="<?php echo HOME ?>about">Το Ταμείο Μας</a></h2>
-            <div class="cols-4b nodisplay-menu">
-                <p>User interface components and navigation must be operable.</p>
+            <div class="cols-4b ">
                 <ol>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation">2.1 Keyboard Accessible</a></h3>
-                        <p>Make all functionality available from a keyboard.</p>
-                        <ol>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable">2.1.1 Keyboard</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping">2.1.2 No Keyboard Trap</a>
-                                <hr/>
-                            </li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs">2.1.3 Keyboard (No Exception)</a></li>
-                        </ol>
+                        <h3><a href="<?php echo HOME ?>about_contracts">Συμβάσεις </a></h3>
                     </li>
                     <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#seizure">2.3 Seizures</a></h3>
-                        <p>Do not design content in a way that is known to cause seizures.</p>
-                        <ol>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#seizure-does-not-violate">2.3.1 Three Flashes or Below Threshold</a>
-                                <hr/>
-                            </li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#seizure-three-times">2.3.2 Three Flashes</a> </li>
-                        </ol>
-                    </li>
-                    <li class="accessible-megamenu-panel-group">
-                        <h3><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms">2.4 Navigable</a></h3>
-                        <p>Provide ways to help users navigate, find content, and determine where they are.</p>
-                        <ol>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip">2.4.1 Bypass Blocks</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title">2.4.2 Page Titled</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order">2.4.3 Focus Order</a></li>
-                            <li><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs">2.4.4 Link Purpose (In Context)</a>
-                                <hr/>
-                            </li>
-                        </ol>
+                        <h3><a href="<?php echo HOME ?>about_contests">Διαγωνισμοί</a></h3>
                     </li>
                 </ol>
             </div>
