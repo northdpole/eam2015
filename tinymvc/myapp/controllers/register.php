@@ -6,7 +6,6 @@ class Register_Controller extends Base_Controller
   {
   	$this->load->model("User","user");
 	$uid = $_SESSION['uid'];
-var_dump($_POST);
 	if(isset($_POST['submit'])){var_dump($uid);
 	$this->user->update($_POST["name"],
 						$_POST["surname"],
