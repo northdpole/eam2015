@@ -23,7 +23,8 @@
     <script>
     $(document).ready(
     		function(){
-    			$(".accessible-megamenu-panel").width( $(".accessible-megamenu").width()-10);				$(".accessible-megamenu-panel").offset({left:$(".accessible-megamenu").position().left});
+    			$(".accessible-megamenu-panel").width( $(".accessible-megamenu").width()-10);
+				$(".accessible-megamenu-panel").offset({left:$(".accessible-megamenu").position().left});
 })
        $(document).ready(function(){
 //           alert("Vale ena X icon panw de3ia sth forma kai dwstou id=\"loginClose\" kai meta phgaine ston kwdika grammh 24 kai diegrapse to alert");
@@ -140,7 +141,7 @@ $(".accessible-megamenu-top-nav-item").mouseover(function(){$(".open").with= $("
                                 <label for="password">Κωδικός Πρόσβασης</label>
                                 <input id="password" type="password" placeholder="Password">
                             </div>
-                                <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                                <button type="submit" class="pure-button pure-button-primary">Είσοδος</button>
                         </fieldset>
                         
                     </form>  

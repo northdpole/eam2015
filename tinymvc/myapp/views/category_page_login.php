@@ -4,7 +4,6 @@
     <?php include("htdocs/includes/leftsidebar.php"); ?>
         <div class="pure-u-19-24">
             <div class="pure-u-20-24">
-<<<<<<< HEAD
                 
                 
                 <div class="pure-u-1 margin-top-2">
@@ -40,12 +39,11 @@
                         <td>01/10/2008</td>
                         <td>σήμερα </td>
                     </tr>
-=======
+                    
                 <div class="pure-u-1">
                 <aside id="categ_box" align="center"> 
->>>>>>> 512baf159452eea1c4942ad5f89ed73566bb1b1e
 
-                	<h2>Πίνακας Προσωπικής Σύνταξης</h2>           
+                	<h2>Στοιχεία Προσωπικής Σύνταξης</h2>           
             		<select>
             			<option  selected="selected">Γήρατος Προσωπικη</option>
             			<option>Aναπηρική Προσωπικη</option>
@@ -53,16 +51,19 @@
             			<option>Θανάτου 60%</option>
             			<option>Θανάτου 25%</option>
             		</select>
-            		<input id="rand" value="" type="text"  />
+            		
             		<input type="submit" id="pen" />
+                    <input id="rand" value="" type="text"  />
 										<script type="text/javascript">
               			$("#pen").click(function(){console.log("clicked"); $("#rand").val(Math.floor((Math.random()*1000)))});
                 	</script>
+                    
                 </aside>
             </div>
             <div class="pure-u-1 margin-top-2">
                 <aside id="categ_box">
-                      <table class="pure-table pure-table-horizontal" align=center>
+                    
+                      <table class="pure-table pure-table-horizontal margin-top-2" align=center>
                 <thead>
                     <tr>
                         <th>Οι Αιτήσεις σας</th>
@@ -102,11 +103,11 @@
                         <td>NAI</td>
                     <td class="green"><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_time_of_service.pdf" target="_blank">Έκτύπωση</a></td>
                     </tr>
-                    
                 </tbody>
-            </table>
+            </table></br>
+                    <button class="pure-button">Νέα Αίτηση</button>
                 </aside>
-                <h2>Tα τελευταία άρθρα απο τις συνδρομές σας ανα κατηγορία/h2>
+                <h2>Tα τελευταία άρθρα απο τις συνδρομές σας ανα κατηγορία</h2>
                <?=$articles?>
             </div>
             
