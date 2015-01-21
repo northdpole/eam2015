@@ -1,4 +1,5 @@
 <?php 
+require_once("homepage.php");
 
 class Browse_Controller extends Base_Controller
 {
@@ -19,10 +20,14 @@ class Browse_Controller extends Base_Controller
 		}
 	}
 	//echo"<p>Art array: ";var_dump($art_array);
-	$this->view->assign('articles',$art_array);	
-	if(isset($_SESSION['uid']))
-			$this->view->display('category_page_login');
-	else
+	$home = new Homepage_Controller();
+	$arts = "";
+	$this->view->assign('articles',$arts);	
+	if(isset($_SESSION['uid'])){
+		$arts = $home->load_articles();
+		$this->view->assign('articles',$arts);		
+		$this->view->display('category_page_login');
+	}else
 		$this->view->display('category_page');
 	//$this->dummy_show($art_array);
   }

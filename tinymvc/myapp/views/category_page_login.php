@@ -95,7 +95,7 @@
                 </tbody>
             </table>
                 </aside>
-               
+               <?=$articles?>
             </div>
             
         </div>
@@ -113,6 +113,7 @@
         <tr><td><a href="<?php echo BASEDIR ?>/htdocs/pdf/add_degree_time.pdf" target="_blank">Αίτηση αναγνώρισης ΧΡΟΝΟΥ ΦΟΙΤΗΣΗΣ στην ΚΥΡΙΑ ΣΥΝΤΑΞΗ </a></td></tr>
     </tbody>
 </table>
+
             </div>
         </div>
         
