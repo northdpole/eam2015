@@ -21,9 +21,16 @@ CREATE TABLE IF NOT EXISTS `Article` (
 --
 
 INSERT INTO `Article` (`id`, `date`, `content`, `Title`) VALUES
+(100, '2015-01-20', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Συντάξεις/Πληροφορίες'),
+(101, '2015-01-14', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Εισφορές/Πληροφορίες'),
+(102, '2015-01-29', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in laoreet mauris. Nulla facilisi. Phasellus pellentesque accumsan urna vel vestibulum. Nam eu ante et ipsum cursus ullamcorper. Proin tempus leo quam, porta mollis magna fringilla at. Praesent mollis sem eu libero ultricies sodales. Nulla accumsan mattis velit, ac iaculis lacus finibus vel. Morbi placerat tortor at efficitur fermentum. Fusce interdum bibendum velit et lacinia.\r\n\r\nFusce urna tortor, maximus eu fermentum at, finibus nec neque. Sed accumsan convallis odio posuere fermentum. Mauris ultrices magna purus, vel interdum orci finibus et. Integer at elit sit amet eros eleifend scelerisque nec a lectus. Vivamus vestibulum non quam non lobortis. Praesent euismod purus in tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac massa leo. Aenean ipsum mauris, egestas ac porttitor vitae, tristique quis sapien. Donec vitae est nec ex luctus molestie sit amet sed ante. Nunc elit lacus, laoreet eu nisi vel, suscipit imperdiet massa. Nullam vitae ligula id nulla varius molestie. Donec dictum egestas purus vel vulputate. Sed velit nulla, ultricies sit amet eleifend sit amet, maximus et ipsum.', 'Προυποθέσεις/ΦΕΚ'),
 (550, '2015-01-14', 'Από τις 12 Δεκεμβρίου 2011 ενεργοποιείται το Νέο Σύστημα Καταβολής των Νοσηλίων «απευθείας» στους Τραπεζικούς Λογαριασμούς των ασφαλισμένων.</br>\r\nΗ καταβολή νοσηλίων από το Ταμείο πλέον καταργείται.</br>\r\nΠροσοχή :\r\nΕίναι ΑΠΑΡΑΙΤΗΤΟ πλέον ο ΑΜΕΣΑ ασφαλισμένος να έχει δηλώσει το ΙΒΑΝ του τραπεζικού του λογαριασμού μέσω :\r\nα) αίτησης ή\r\nβ) απευθείας από τον ίδιο μέσω του διαδικτύου.\r\n</br>\r\nΑπουσία αριθμού ΙΒΑΝ δεν γίνεται αποδεκτή η παραλαβή των δικαιολογητικών Νοσηλίων από κανένα υποκατάστημα.</br>\r\n</br>\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/new_system.pdf" target="_blank"> Περισσότερα.</a>', 'ΝΕΟ σύστημα καταβολής Νοσηλίων'),
 (551, '2015-01-20', 'Οι μέχρι 31/12/1992 ασφαλισμένοι (παλαιοί ασφαλισμένοι), οι οποίοι την 01/01/2007 είχαν ηλικία άνω των πενήντα πέντε ετών και είχαν υπαχθεί υποχρεωτικά στον Κλάδο Επικουρικής Ασφάλισης (αρ.13 Ν.3518/06), διαγράφονται από τον Κλάδο Επικουρικής Ασφάλισης του ΕΤΑΑ/ΤΕΑΜΕΔΕ αναδρομικά από 01/01/2007, τα δε ποσά των ασφαλιστικών εισφορών που τους παρακρατήθηκαν επιστρέφονται ως αχρεωστήτως καταβληθέντα , μετά από υποβολή σχετικής αίτησης (άρθρ.59Ν3996/11).</br>\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/delete.pdf" target="_blank">Περισσότερα</a>', 'Διαγραφή απο Κλάδο Επικουρικής Ασφάλισης'),
-(552, '2015-01-06', 'Φέτος θα ισχύσει για ΕΚΤΗ χρονιά το σύστημα της κράτησης θέσεων στις κατασκηνώσεις.\r\n</br>\r\nΟι ασφαλισμένοι μας θα πρέπει να επικοινωνούν με τη κατασκήνωση της αρεσκείας τους, να δηλώνουν τον ασφαλιστικό τους φορέα, να ενημερώνονται για τη πληρότητά της στη περίοδο που τους ενδιαφέρει και τέλος να προχωρούν σε κράτηση θέσης για το παιδί τους.\r\n</br>\r\nΟι κρατήσεις μπορούν να γίνονται μόνο σε συμβεβλημένες με το ΕΤΑΑ-ΤΣΜΕΔΕ κατασκηνώσεις και για τις περιόδους που αυτές θα συνεργαστούν με το Ταμείο\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/delete.pdf" target="_blank">Περισσότερα</a>', 'Κατασκηνώσεις');
+(552, '2015-01-06', 'Φέτος θα ισχύσει για ΕΚΤΗ χρονιά το σύστημα της κράτησης θέσεων στις κατασκηνώσεις.\r\n</br>\r\nΟι ασφαλισμένοι μας θα πρέπει να επικοινωνούν με τη κατασκήνωση της αρεσκείας τους, να δηλώνουν τον ασφαλιστικό τους φορέα, να ενημερώνονται για τη πληρότητά της στη περίοδο που τους ενδιαφέρει και τέλος να προχωρούν σε κράτηση θέσης για το παιδί τους.\r\n</br>\r\nΟι κρατήσεις μπορούν να γίνονται μόνο σε συμβεβλημένες με το ΕΤΑΑ-ΤΣΜΕΔΕ κατασκηνώσεις και για τις περιόδους που αυτές θα συνεργαστούν με το Ταμείο\r\n<a href="<?php echo BASEDIR ?>/htdocs/pdf/delete.pdf" target="_blank">Περισσότερα</a>', 'Κατασκηνώσεις'),
+(560, '2015-01-01', 'Όταν κάποιος μισθωτός μηχανικός αποχωρεί από κάποιο εργοδότη, δηλώνεται η αποχώρηση από τον εργοδότη του και κατόπιν προσέρχεται στο ΤΣΜΕΔΕ εντος 3 μηνών για να πληρώσει το υπολοιπόμενο ποσό μέχρι τη λήξη του εξαμήνου. Αν η πληρωμή γίνει μετά το τρίμηνο θα έχει πρόσθετα τέλη.', 'Έχω αποχωρήσει από τον εργοδότη μου και θέλω να πληρώσω το υπόλοιπο εξάμηνο. Τι πρέπει να κάνω;'),
+(561, '2015-01-08', 'Θα επικοινωνήσετε με το ΤΣΜΕΔΕ που ανήκετε για να σας δώσει πληροφορίες.', 'Το ειδοποιητήριο που παρέλαβα είναι κόκκινο και αναφέρει ότι υπάρχουν εκκρεμότητες. Γιατί;'),
+(562, '2015-01-12', 'Πολύ πιθανό να έχετε προβεί σε αλλαγή διεύθυνσης ή να έχει αλλάξει η επαγγελματική σας κατάσταση και ο εργοδότης σας δεν προέβη σε ενημέρωση του ΤΣΜΕΔΕ και της καρτέλλας σας. Για να πληρώσετε το τρέχον εξάμηνο πηγαίνετε στην Τράπεζα Αττικής και αναφέρετε τον αριθμό δύναμης σας ώστε να πληρώσετε τις εισφορές σας. Για περιοχές που δεν υπάρχει η συγκεκριμένη τράπεζα, θα πρέπει να επικοινωνήσετε με το ΤΣΜΕΔΕ ώστε να ενημερωθείτε με τα στοιχεία του ειδοποιητηρίου και τον λογ/σμο καταθεσης και το ποσό ώστε να πληρώσετε στην Εθνική Τράπεζα.', 'Θέλω να πληρώσω ολόκληρο το έτος αλλά δεν έχω λάβει ειδοποιητήρια.\r\n'),
+(563, '2015-01-09', 'Θα πρέπει να προσέλθετε στο ΤΣΜΕΔΕ και να πληρώσετε τη δόση που θέλετε με γραμμάτιο, διότι πολύ πιθανά καθυστέρησε η αποστολή του διακανονισμού ή λόγω των ΕΛΤΑ δεν το παραλάβατε έγκαιρα. Θα ζητήσετε επανέκδοση ειδοποιητηρίου από το ΤΣΜΕΔΕ ώστε να πληρώσετε στην τράπεζα.', 'Έκανα διακανονισμό οφειλών αλλά δεν παρέλαβα το πακέτο με τις δόσεις προς πληρωμή. Τι πρέπει να κάνω;\r\n');
 
 -- --------------------------------------------------------
 
@@ -43,6 +50,12 @@ CREATE TABLE IF NOT EXISTS `articleCategories` (
 --
 
 INSERT INTO `articleCategories` (`article_id`, `categ_id`) VALUES
+(100, 100),
+(100, 101),
+(100, 101),
+(101, 102),
+(102, 102),
+(102, 102),
 (550, 101),
 (551, 100),
 (552, 102);
@@ -122,17 +135,17 @@ INSERT INTO `DocumentCategories` (`document_id`, `categ_id`) VALUES
 DROP TABLE IF EXISTS  User;
 CREATE TABLE IF NOT EXISTS `User` (
   `id` int(11) NOT NULL,
-  `name` varchar(128) COLLATE utf8_bin NOT NULL,
-  `surname` varchar(128) COLLATE utf8_bin NOT NULL,
-  `address` varchar(128) COLLATE utf8_bin NOT NULL,
-  `postcode` varchar(128) COLLATE utf8_bin NOT NULL,
-  `city` varchar(128) COLLATE utf8_bin NOT NULL,
-  `afm` varchar(128) CHARACTER SET utf8_bin NOT NULL,
-  `kyt` varchar(128) CHARACTER SET utf8_bin NOT NULL,
-  `amka` varchar(128) CHARACTER SET utf8_bin NOT NULL,
-  `retired` varchar(128) CHARACTER SET utf8_bin NOT NULL,
-  `pensionNo` varchar(128) CHARACTER SET utf8_bin NOT NULL,
-  `iban` varchar(128) CHARACTER SET utf8_bin NOT NULL,
+  `name` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `surname` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `address` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `postcode` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `city` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `afm` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `kyt` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `amka` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `retired` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `pensionNo` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `iban` varchar(128) CHARACTER SET utf8 NOT NULL,
   `bank` varchar(128) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
@@ -185,9 +198,12 @@ CREATE TABLE IF NOT EXISTS `userSubscriptions` (
 --
 
 INSERT INTO `userSubscriptions` (`userid`, `categ_id`) VALUES
+(0, 0),
+(0, 0),
+(0, 1),
 (0, 100),
 (0, 101),
-(0, 102);
+(0, 1);
 
 --
 -- Constraints for dumped tables
